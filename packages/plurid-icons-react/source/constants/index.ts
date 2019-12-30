@@ -1,0 +1,1 @@
+export const DEFAULT_TITLE_HOVER_TIME = 300;
