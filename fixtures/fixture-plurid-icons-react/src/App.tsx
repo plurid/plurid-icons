@@ -51,50 +51,72 @@ const App: React.FC = () => {
                     minHeight: '100vh',
                 }}
             >
-                <div>
+                <div
+                    style={{
+                        marginBottom: '4rem',
+                    }}
+                >
                     <h2>
                         general icons
                     </h2>
 
-                    <PluridIconAdd
-                        theme={theme}
-                        title="add"
-                    />
-                    <PluridIconMore
-                        theme={theme}
-                        title="more"
-                    />
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                        }}
+                    >
+                        <PluridIconAdd
+                            theme={theme}
+                            title="add"
+                        />
+                        <PluridIconMore
+                            theme={theme}
+                            title="more"
+                        />
+                    </div>
                 </div>
 
-                <div>
+                <div
+                    style={{
+                        marginBottom: '4rem',
+                    }}
+                >
                     <h2>
                         plurid' specific icons
                     </h2>
 
-                    <PluridIconDocuments
-                        theme={theme}
-                        title="documents"
-                    />
-                    <PluridIconFirstPerson
-                        theme={theme}
-                        title="first person"
-                    />
-                    <PluridIconGlobal
-                        theme={theme}
-                        title="global"
-                    />
-                    <PluridIconRotate
-                        theme={theme}
-                        title="rotate"
-                    />
-                    <PluridIconScale
-                        theme={theme}
-                        title="scale"
-                    />
-                    <PluridIconTranslate
-                        theme={theme}
-                        title="translate"
-                    />
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                        }}
+                    >
+                        <PluridIconDocuments
+                            theme={theme}
+                            title="documents"
+                        />
+                        <PluridIconFirstPerson
+                            theme={theme}
+                            title="first person"
+                        />
+                        <PluridIconGlobal
+                            theme={theme}
+                            title="global"
+                        />
+                        <PluridIconRotate
+                            theme={theme}
+                            title="rotate"
+                        />
+                        <PluridIconScale
+                            theme={theme}
+                            title="scale"
+                        />
+                        <PluridIconTranslate
+                            theme={theme}
+                            title="translate"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
