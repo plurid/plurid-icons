@@ -15,10 +15,15 @@ const IconSet: React.FC<IconSetProperties> = (properties) => {
     return (
         <div
             style={{
-                marginBottom: '4rem',
+                paddingBottom: '3rem',
             }}
         >
-            <div>
+            <div
+                style={{
+                    marginTop: '3rem',
+                    marginBottom: '2rem',
+                }}
+            >
                 <h2>
                     {title}
                 </h2>
@@ -26,8 +31,12 @@ const IconSet: React.FC<IconSetProperties> = (properties) => {
 
             <div
                 style={{
-                    display: 'flex',
-                    justifyContent: 'space-evenly',
+                    display: 'grid',
+                    gridGap: '4rem',
+                    gridTemplateColumns: 'repeat(12, 5rem)',
+                    alignItems: 'center',
+                    justifyItems: 'center',
+                    justifyContent: 'center',
                 }}
             >
                 {children}
