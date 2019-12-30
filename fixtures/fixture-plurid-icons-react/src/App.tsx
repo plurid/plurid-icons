@@ -8,6 +8,7 @@ import themes, { Theme } from '@plurid/plurid-themes';
 import {
     PluridIconAdd,
     PluridIconCommand,
+    PluridIconCopy,
     PluridIconDelete,
     PluridIconExplore,
     PluridIconMore,
@@ -81,6 +82,10 @@ const App: React.FC = () => {
                         <PluridIconCommand
                             theme={theme}
                             title="command"
+                        />
+                        <PluridIconCopy
+                            theme={theme}
+                            title="copy"
                         />
                         <PluridIconDelete
                             theme={theme}
