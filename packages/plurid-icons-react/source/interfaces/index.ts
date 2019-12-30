@@ -29,7 +29,14 @@ export interface PluridIconProperties {
     /**
      * Time value to show title after hover event.
      *
+     * Default `600`ms.
+     */
+    titleAppearTime?: number;
+
+    /**
+     * Time value to hide title after hover event.
+     *
      * Default `300`ms.
      */
-    titleHoverTime?: number;
+    titleDisappearTime?: number;
 }

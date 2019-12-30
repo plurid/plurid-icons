@@ -47,6 +47,8 @@ const App: React.FC = () => {
                     theme={theme}
                     title="add"
                     size="normal"
+                    // titleAppearTime={200}
+                    // titleDisappearTime={200}
                 />
             </div>
         </div>
