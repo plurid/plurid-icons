@@ -1,10 +1,10 @@
 import React from 'react';
 
-import PluridIcon from '../PluridIcon';
+import PluridIcon from '../../PluridIcon';
 
 import {
     PluridIconProperties,
-} from '../interfaces';
+} from '../../interfaces';
 
 
 
