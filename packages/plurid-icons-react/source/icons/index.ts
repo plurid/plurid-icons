@@ -1,5 +1,6 @@
 /** general */
 import PluridIconAdd from './general/PluridIconAdd';
+import PluridIconAddAlbum from './general/PluridIconAddAlbum';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
@@ -33,6 +34,7 @@ import PluridIconTranslate from './plurid-specific/PluridIconTranslate';
 export {
     /** general */
     PluridIconAdd,
+    PluridIconAddAlbum,
     PluridIconCommand,
     PluridIconCopy,
     PluridIconDelete,
