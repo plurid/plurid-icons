@@ -36,32 +36,26 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                 justifyContent: 'center',
             }}
         >
-            <PluridDropdown
-                theme={theme}
-                selected={iconSize}
-                selectables={['small', 'normal', 'large']}
-                atSelect={(selection) => {
-                    setIconSize(selection);
-                }}
-            />
-
-            {/* <PluridSwitch
-                theme={theme}
-                checked={false}
-                atChange={() => {}}
-                exclusive={true}
-            />
-
             <div
                 style={{
-                    userSelect: 'none',
-                    cursor: 'pointer',
-                    margin: '0 1rem',
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr',
+                    columnGap: '0.5rem',
                 }}
-                onClick={() => {}}
             >
-                foo
-            </div> */}
+                <div>
+                    icon size
+                </div>
+
+                <PluridDropdown
+                    theme={theme}
+                    selected={iconSize}
+                    selectables={['small', 'normal', 'large']}
+                    atSelect={(selection) => {
+                        setIconSize(selection);
+                    }}
+                />
+            </div>
         </div>
     );
 }
