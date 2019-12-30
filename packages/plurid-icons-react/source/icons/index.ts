@@ -11,6 +11,14 @@ import PluridIconStatistics from './general/PluridIconStatistics';
 import PluridIconSystem from './general/PluridIconSystem';
 import PluridIconUsers from './general/PluridIconUsers';
 
+/** media */
+import PluridIconPause from './media/PluridIconPause';
+import PluridIconPlay from './media/PluridIconPlay';
+import PluridIconVolumeHigh from './media/PluridIconVolumeHigh';
+import PluridIconVolumeLow from './media/PluridIconVolumeLow';
+import PluridIconVolumeMiddle from './media/PluridIconVolumeMiddle';
+import PluridIconVolumeMuted from './media/PluridIconVolumeMuted';
+
 /** plurid specific */
 import PluridIconDocuments from './plurid-specific/PluridIconDocuments';
 import PluridIconFirstPerson from './plurid-specific/PluridIconFirstPerson';
@@ -34,6 +42,14 @@ export {
     PluridIconStatistics,
     PluridIconSystem,
     PluridIconUsers,
+
+    /** media */
+    PluridIconPause,
+    PluridIconPlay,
+    PluridIconVolumeHigh,
+    PluridIconVolumeLow,
+    PluridIconVolumeMiddle,
+    PluridIconVolumeMuted,
 
     /** plurid specific */
     PluridIconDocuments,
