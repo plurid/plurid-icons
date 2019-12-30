@@ -8,9 +8,9 @@ export interface PluridIconProperties {
     /**
      * `'small'` - 10px height and width.
      *
-     * `'normal'` - 15px height and width.
+     * `'normal'` - 16px height and width.
      *
-     * `'large'` - 25px height and width.
+     * `'large'` - 24px height and width.
      *
      * `'number'` - pixel value specifying height and width.
      */

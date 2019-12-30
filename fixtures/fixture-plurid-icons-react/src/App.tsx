@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <div className="App"
             style={{
                 color: theme.colorPrimary,
-                // background: theme.backgroundColorPrimary,
+                background: theme.backgroundColorPrimary,
             }}
         >
             <div
@@ -38,12 +38,15 @@ const App: React.FC = () => {
 
             <div style={{ height: 140 }} />
 
-            <div>
-                icons
-
+            <div
+                style={{
+                    minHeight: '100vh',
+                }}
+            >
                 <PluridIconAdd
                     theme={theme}
                     title="add"
+                    size="normal"
                 />
             </div>
         </div>
