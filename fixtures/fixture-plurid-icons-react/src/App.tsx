@@ -7,7 +7,12 @@ import themes, { Theme } from '@plurid/plurid-themes';
 
 import {
     PluridIconAdd,
+    PluridIconDelete,
+    PluridIconExplore,
     PluridIconMore,
+    PluridIconSettings,
+    PluridIconSpeak,
+    PluridIconStatistics,
 
     PluridIconDocuments,
     PluridIconFirstPerson,
@@ -70,9 +75,29 @@ const App: React.FC = () => {
                             theme={theme}
                             title="add"
                         />
+                        <PluridIconDelete
+                            theme={theme}
+                            title="delete"
+                        />
+                        <PluridIconExplore
+                            theme={theme}
+                            title="explore"
+                        />
                         <PluridIconMore
                             theme={theme}
                             title="more"
+                        />
+                        <PluridIconSettings
+                            theme={theme}
+                            title="settings"
+                        />
+                        <PluridIconSpeak
+                            theme={theme}
+                            title="speak"
+                        />
+                        <PluridIconStatistics
+                            theme={theme}
+                            title="statistics"
                         />
                     </div>
                 </div>
