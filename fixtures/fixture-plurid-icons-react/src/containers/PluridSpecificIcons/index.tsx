@@ -5,6 +5,7 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
+    PluridIconDe,
     PluridIconDocuments,
     PluridIconFirstPerson,
     PluridIconGlobal,
@@ -25,6 +26,10 @@ import {
 
 
 const icons: IconListItem[] = [
+    {
+        Element: PluridIconDe,
+        title: 'de',
+    },
     {
         Element: PluridIconDocuments,
         title: 'documents',
