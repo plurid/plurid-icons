@@ -11,10 +11,12 @@ import {
     PluridIconAdminSpace,
     PluridIconApps,
     PluridIconCommand,
+    PluridIconContact,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
     PluridIconEmail,
+    PluridIconEnter,
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
@@ -72,6 +74,10 @@ const icons: IconListItem[] = [
         title: 'command',
     },
     {
+        Element: PluridIconContact,
+        title: 'contact',
+    },
+    {
         Element: PluridIconCopy,
         title: 'copy',
     },
@@ -86,6 +92,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconEmail,
         title: 'email',
+    },
+    {
+        Element: PluridIconEnter,
+        title: 'enter',
     },
     {
         Element: PluridIconExpandMinus,

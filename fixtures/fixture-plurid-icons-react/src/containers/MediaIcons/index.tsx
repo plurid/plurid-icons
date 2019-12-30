@@ -5,6 +5,7 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
+    PluridIconLoop,
     PluridIconPause,
     PluridIconPlay,
     PluridIconVolumeHigh,
@@ -22,6 +23,10 @@ import {
 
 
 const icons: IconListItem[] = [
+    {
+        Element: PluridIconLoop,
+        title: 'loop',
+    },
     {
         Element: PluridIconPause,
         title: 'pause',
