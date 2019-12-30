@@ -42,12 +42,16 @@ const icons: IconListItem[] = [
 interface GradingIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
+    titleAppearTime: number;
+    titleDisappearTime: number;
 }
 
 const GradingIcons: React.FC<GradingIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
+        titleAppearTime,
+        titleDisappearTime,
     } = properties;
 
     return (
@@ -66,6 +70,8 @@ const GradingIcons: React.FC<GradingIconsProperties> = (properties) => {
                         theme={theme}
                         title={title}
                         size={iconSize}
+                        titleAppearTime={titleAppearTime}
+                        titleDisappearTime={titleDisappearTime}
                     />
                 );
             })}

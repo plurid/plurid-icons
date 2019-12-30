@@ -57,12 +57,16 @@ const icons: IconListItem[] = [
 interface MediaIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
+    titleAppearTime: number;
+    titleDisappearTime: number;
 }
 
 const MediaIcons: React.FC<MediaIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
+        titleAppearTime,
+        titleDisappearTime,
     } = properties;
 
     return (
@@ -81,6 +85,8 @@ const MediaIcons: React.FC<MediaIconsProperties> = (properties) => {
                         theme={theme}
                         title={title}
                         size={iconSize}
+                        titleAppearTime={titleAppearTime}
+                        titleDisappearTime={titleDisappearTime}
                     />
                 );
             })}

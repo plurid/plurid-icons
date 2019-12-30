@@ -52,12 +52,16 @@ const icons: IconListItem[] = [
 interface SittingIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
+    titleAppearTime: number;
+    titleDisappearTime: number;
 }
 
 const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
+        titleAppearTime,
+        titleDisappearTime,
     } = properties;
 
     return (
@@ -76,6 +80,8 @@ const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
                         theme={theme}
                         title={title}
                         size={iconSize}
+                        titleAppearTime={titleAppearTime}
+                        titleDisappearTime={titleDisappearTime}
                     />
                 );
             })}
