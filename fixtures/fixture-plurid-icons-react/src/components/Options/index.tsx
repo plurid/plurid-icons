@@ -49,6 +49,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr',
                     columnGap: '0.5rem',
+                    alignItems: 'center',
                 }}
             >
                 <div>
@@ -70,6 +71,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr',
                     columnGap: '0.5rem',
+                    alignItems: 'center',
                 }}
             >
                 <div>
@@ -88,6 +90,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr',
                     columnGap: '0.5rem',
+                    alignItems: 'center',
                 }}
             >
                 <div>
