@@ -14,6 +14,7 @@ import {
 } from '../interfaces';
 
 import {
+    IMAGE_SIZES,
     DEFAULT_TITLE_HOVER_TIME,
 } from '../constants';
 
@@ -21,6 +22,7 @@ import {
 
 const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
     const {
+        size,
         title,
         titleHoverTime,
         theme,
@@ -28,8 +30,35 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
         children,
     } = properties;
 
+    const [imageSize, setImageSize] = useState(IMAGE_SIZES.NORMAL);
+
     const [mouseOver, setMouseOver] = useState(false);
     const [showTitle, setShowTitle] = useState(false);
+
+    useEffect(() => {
+        if (size) {
+            if (typeof size === 'number') {
+                setImageSize(size);
+                return;
+            }
+
+            switch (size) {
+                case 'small':
+                    setImageSize(IMAGE_SIZES.SMALL);
+                    break;
+                case 'normal':
+                    setImageSize(IMAGE_SIZES.NORMAL);
+                    break;
+                case 'large':
+                    setImageSize(IMAGE_SIZES.LARGE);
+                    break;
+                default:
+                    setImageSize(IMAGE_SIZES.NORMAL);
+            }
+        }
+    }, [
+        size,
+    ]);
 
     useEffect(() => {
         if (mouseOver) {
@@ -48,12 +77,17 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
             onMouseLeave={() => setMouseOver(false)}
             onMouseMove={() => mouseOver ? setMouseOver(true) : null}
         >
-            <StyledPluridIconImage>
+            <StyledPluridIconImage
+                theme={theme}
+                size={imageSize}
+            >
                 {children}
             </StyledPluridIconImage>
 
             {showTitle && (
-                <StyledPluridIconTitle>
+                <StyledPluridIconTitle
+                    theme={theme}
+                >
                     {title}
                 </StyledPluridIconTitle>
             )}
