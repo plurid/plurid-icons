@@ -1,4 +1,5 @@
 import React, {
+    useRef,
     useState,
     useEffect,
 } from 'react';
@@ -15,16 +16,21 @@ import {
 
 import {
     IMAGE_SIZES,
-    DEFAULT_TITLE_HOVER_TIME,
+    DEFAULT_TITLE_APPEAR_TIME,
+    DEFAULT_TITLE_DISAPPEAR_TIME,
 } from '../constants';
 
 
 
 const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
+    const hoverInTimeout = useRef<null | NodeJS.Timeout>(null);
+    const hoverOutTimeout = useRef<null | NodeJS.Timeout>(null);
+
     const {
         size,
         title,
-        titleHoverTime,
+        titleAppearTime,
+        titleDisappearTime,
         theme,
 
         children,
@@ -61,10 +67,27 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
     ]);
 
     useEffect(() => {
-        if (mouseOver) {
-            setShowTitle(true);
-        } else {
-            setShowTitle(false);
+        if (mouseOver && hoverOutTimeout.current) {
+            hoverInTimeout.current = setTimeout(
+                () => {
+                    setShowTitle(true);
+                },
+                titleAppearTime || DEFAULT_TITLE_APPEAR_TIME,
+            );
+
+            clearTimeout(hoverOutTimeout.current);
+        }
+
+        if (!mouseOver) {
+            hoverOutTimeout.current = setTimeout(
+                () => {
+                    setShowTitle(false);
+                    if (hoverInTimeout.current) {
+                        clearTimeout(hoverInTimeout.current);
+                    }
+                },
+                titleDisappearTime || DEFAULT_TITLE_DISAPPEAR_TIME,
+            );
         }
     }, [
         mouseOver,
