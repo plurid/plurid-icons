@@ -59,6 +59,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                 <PluridDropdown
                     theme={theme}
                     selected={iconSize}
+                    selectedColor={theme.backgroundColorDark}
                     selectables={['small', 'normal', 'large']}
                     atSelect={(selection) => {
                         setIconSize(selection);
