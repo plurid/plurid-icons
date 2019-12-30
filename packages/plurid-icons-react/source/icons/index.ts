@@ -7,6 +7,8 @@ import PluridIconMore from './general/PluridIconMore';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
+import PluridIconSystem from './general/PluridIconSystem';
+import PluridIconUsers from './general/PluridIconSystem';
 
 /** plurid specific */
 import PluridIconDocuments from './plurid-specific/PluridIconDocuments';
@@ -28,6 +30,8 @@ export {
     PluridIconSettings,
     PluridIconSpeak,
     PluridIconStatistics,
+    PluridIconSystem,
+    PluridIconUsers,
 
     /** plurid specific */
     PluridIconDocuments,
