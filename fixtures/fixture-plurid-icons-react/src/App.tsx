@@ -9,6 +9,7 @@ import {
     PluridIconAdd,
     PluridIconAddAlbum,
     PluridIconAddImage,
+    PluridIconAdminSpace,
     PluridIconCommand,
     PluridIconCopy,
     PluridIconDelete,
@@ -96,6 +97,10 @@ const App: React.FC = () => {
                         <PluridIconAddImage
                             theme={theme}
                             title="add image"
+                        />
+                        <PluridIconAdminSpace
+                            theme={theme}
+                            title="admin space"
                         />
                         <PluridIconCommand
                             theme={theme}
