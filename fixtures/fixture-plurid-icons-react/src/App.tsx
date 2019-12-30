@@ -31,6 +31,7 @@ const App: React.FC = () => {
                     position: 'fixed',
                     width: '100%',
                     background: 'white',
+                    zIndex: 9999,
                     boxShadow: theme.boxShadowUmbra,
                 }}
             >
