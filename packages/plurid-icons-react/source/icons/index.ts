@@ -14,6 +14,7 @@ import PluridIconEnter from './general/PluridIconEnter';
 import PluridIconExpandMinus from './general/PluridIconExpandMinus';
 import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
+import PluridIconExternalLink from './general/PluridIconExternalLink';
 import PluridIconImagelists from './general/PluridIconImagelists';
 import PluridIconInfo from './general/PluridIconInfo';
 import PluridIconIngress from './general/PluridIconIngress';
@@ -86,6 +87,7 @@ export {
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
+    PluridIconExternalLink,
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,

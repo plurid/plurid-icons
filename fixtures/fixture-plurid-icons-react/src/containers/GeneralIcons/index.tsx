@@ -20,6 +20,7 @@ import {
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
+    PluridIconExternalLink,
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,
@@ -108,6 +109,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconExplore,
         title: 'explore',
+    },
+    {
+        Element: PluridIconExternalLink,
+        title: 'external link',
     },
     {
         Element: PluridIconImagelists,
