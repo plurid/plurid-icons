@@ -18,6 +18,13 @@ import {
     PluridIconSystem,
     PluridIconUsers,
 
+    PluridIconPause,
+    PluridIconPlay,
+    PluridIconVolumeHigh,
+    PluridIconVolumeLow,
+    PluridIconVolumeMiddle,
+    PluridIconVolumeMuted,
+
     PluridIconDocuments,
     PluridIconFirstPerson,
     PluridIconGlobal,
@@ -118,6 +125,48 @@ const App: React.FC = () => {
                         <PluridIconUsers
                             theme={theme}
                             title="users"
+                        />
+                    </div>
+                </div>
+
+                <div
+                    style={{
+                        marginBottom: '4rem',
+                    }}
+                >
+                    <h2>
+                        media icons
+                    </h2>
+
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                        }}
+                    >
+                        <PluridIconPause
+                            theme={theme}
+                            title="pause"
+                        />
+                        <PluridIconPlay
+                            theme={theme}
+                            title="play"
+                        />
+                        <PluridIconVolumeHigh
+                            theme={theme}
+                            title="volume high"
+                        />
+                        <PluridIconVolumeLow
+                            theme={theme}
+                            title="volume low"
+                        />
+                        <PluridIconVolumeMiddle
+                            theme={theme}
+                            title="volume middle"
+                        />
+                        <PluridIconVolumeMuted
+                            theme={theme}
+                            title="volume muted"
                         />
                     </div>
                 </div>
