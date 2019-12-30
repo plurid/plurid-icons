@@ -5,10 +5,12 @@ import PluridIconAddImage from './general/PluridIconAddImage';
 import PluridIconAdminSpace from './general/PluridIconAdminSpace';
 import PluridIconApps from './general/PluridIconApps';
 import PluridIconCommand from './general/PluridIconCommand';
+import PluridIconContact from './general/PluridIconContact';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
 import PluridIconEdit from './general/PluridIconEdit';
 import PluridIconEmail from './general/PluridIconEmail';
+import PluridIconEnter from './general/PluridIconEnter';
 import PluridIconExpandMinus from './general/PluridIconExpandMinus';
 import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
@@ -38,6 +40,7 @@ import PluridIconMode from './grading/PluridIconMode';
 import PluridIconRange from './grading/PluridIconRange';
 
 /** media */
+import PluridIconLoop from './media/PluridIconLoop';
 import PluridIconPause from './media/PluridIconPause';
 import PluridIconPlay from './media/PluridIconPlay';
 import PluridIconVolumeHigh from './media/PluridIconVolumeHigh';
@@ -74,10 +77,12 @@ export {
     PluridIconAdminSpace,
     PluridIconApps,
     PluridIconCommand,
+    PluridIconContact,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
     PluridIconEmail,
+    PluridIconEnter,
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
@@ -107,6 +112,7 @@ export {
     PluridIconRange,
 
     /** media */
+    PluridIconLoop,
     PluridIconPause,
     PluridIconPlay,
     PluridIconVolumeHigh,
