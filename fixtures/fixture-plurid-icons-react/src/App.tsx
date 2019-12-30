@@ -14,6 +14,8 @@ import {
     PluridIconSettings,
     PluridIconSpeak,
     PluridIconStatistics,
+    PluridIconSystem,
+    PluridIconUsers,
 
     PluridIconDocuments,
     PluridIconFirstPerson,
@@ -103,6 +105,14 @@ const App: React.FC = () => {
                         <PluridIconStatistics
                             theme={theme}
                             title="statistics"
+                        />
+                        <PluridIconSystem
+                            theme={theme}
+                            title="system"
+                        />
+                        <PluridIconUsers
+                            theme={theme}
+                            title="users"
                         />
                     </div>
                 </div>
