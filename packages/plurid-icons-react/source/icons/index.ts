@@ -2,6 +2,7 @@
 import PluridIconAdd from './general/PluridIconAdd';
 import PluridIconAddAlbum from './general/PluridIconAddAlbum';
 import PluridIconAddImage from './general/PluridIconAddImage';
+import PluridIconAdminSpace from './general/PluridIconAdminSpace';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
@@ -37,6 +38,7 @@ export {
     PluridIconAdd,
     PluridIconAddAlbum,
     PluridIconAddImage,
+    PluridIconAdminSpace,
     PluridIconCommand,
     PluridIconCopy,
     PluridIconDelete,
