@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
     Theme,
 } from '@plurid/plurid-themes';
@@ -5,6 +7,8 @@ import {
 
 
 export interface PluridIconProperties {
+    style?: React.CSSProperties;
+
     /**
      * `'small'` - 10px height and width.
      *
