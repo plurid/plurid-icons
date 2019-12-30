@@ -8,6 +8,13 @@ import themes, { Theme } from '@plurid/plurid-themes';
 import {
     PluridIconAdd,
     PluridIconMore,
+
+    PluridIconDocuments,
+    PluridIconFirstPerson,
+    PluridIconGlobal,
+    PluridIconRotate,
+    PluridIconScale,
+    PluridIconTranslate
 } from '@plurid/plurid-icons-react';
 
 
@@ -44,17 +51,51 @@ const App: React.FC = () => {
                     minHeight: '100vh',
                 }}
             >
-                <PluridIconAdd
-                    theme={theme}
-                    title="add"
-                    size="normal"
-                    // titleAppearTime={200}
-                    // titleDisappearTime={200}
-                />
-                <PluridIconMore
-                    theme={theme}
-                    title="more"
-                />
+                <div>
+                    <h2>
+                        general icons
+                    </h2>
+
+                    <PluridIconAdd
+                        theme={theme}
+                        title="add"
+                    />
+                    <PluridIconMore
+                        theme={theme}
+                        title="more"
+                    />
+                </div>
+
+                <div>
+                    <h2>
+                        plurid' specific icons
+                    </h2>
+
+                    <PluridIconDocuments
+                        theme={theme}
+                        title="documents"
+                    />
+                    <PluridIconFirstPerson
+                        theme={theme}
+                        title="first person"
+                    />
+                    <PluridIconGlobal
+                        theme={theme}
+                        title="global"
+                    />
+                    <PluridIconRotate
+                        theme={theme}
+                        title="rotate"
+                    />
+                    <PluridIconScale
+                        theme={theme}
+                        title="scale"
+                    />
+                    <PluridIconTranslate
+                        theme={theme}
+                        title="translate"
+                    />
+                </div>
             </div>
         </div>
     );
