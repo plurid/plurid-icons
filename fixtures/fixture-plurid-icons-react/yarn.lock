@@ -1191,10 +1191,10 @@
   resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.22.tgz#0e2a122d3e45db626288dfb04548e8a3664a434e"
   integrity sha512-HYnoUgjYZqd8msFzC5Ar2GreAdM/tcmtQePmAi8DFLHD47dfrHDgZZAtO5PTUP5FM9FTzCsQTQtUu6/gKyTE0Q==
 
-"@plurid/plurid-ui-react@^0.1.39":
-  version "0.1.39"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.39.tgz#875bf4935adca2c61f320228cb37632e6385cab9"
-  integrity sha512-U0RTdAfBlK7eWjGyQdSjxZMBykvPn/e03oL9UmS95rU9P/CkZd1mF7uKadjr1ywRg9a0BckUr6QBIBsPNHA3QQ==
+"@plurid/plurid-ui-react@^0.1.40":
+  version "0.1.40"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.40.tgz#5ee54175b6ae04d04d095e09f3b416a71c7479d7"
+  integrity sha512-jWwQGjcbur2piqhnI9l1IqORa0YXtTRKKFzfMKut0ND7hAqn3xzlTgqYe1THqd4Sxi6ssQOOHxrkd3f+MF5kGA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
