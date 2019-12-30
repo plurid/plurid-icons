@@ -79,14 +79,17 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
         >
             <StyledPluridIconImage
                 theme={theme}
-                size={imageSize}
+                imageSize={imageSize}
             >
                 {children}
             </StyledPluridIconImage>
 
-            {showTitle && (
+            {showTitle
+            && title
+            && (
                 <StyledPluridIconTitle
                     theme={theme}
+                    imageSize={imageSize}
                 >
                     {title}
                 </StyledPluridIconTitle>

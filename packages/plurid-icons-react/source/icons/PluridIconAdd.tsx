@@ -9,17 +9,9 @@ import {
 
 
 const PluridIconAdd: React.FC<PluridIconProperties> = (properties) => {
-    const {
-        theme,
-        title,
-        titleHoverTime,
-    } = properties;
-
     return (
         <PluridIcon
-            theme={theme}
-            title={title}
-            titleHoverTime={titleHoverTime}
+            {...properties}
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
                 <g>
