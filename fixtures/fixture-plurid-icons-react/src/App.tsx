@@ -53,7 +53,7 @@ const App: React.FC = () => {
 
             <div
                 style={{
-                    minHeight: '100vh',
+                    // minHeight: '100vh',
                 }}
             >
                 <GeneralIcons
