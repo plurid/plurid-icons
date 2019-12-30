@@ -34,7 +34,13 @@ import {
     PluridIconGlobal,
     PluridIconRotate,
     PluridIconScale,
-    PluridIconTranslate
+    PluridIconTranslate,
+
+    PluridIconBranch,
+    PluridIconCopyCurrentState,
+    PluridIconCopyStateHistory,
+    PluridIconSittings,
+    PluridIconStateShareImage,
 } from '@plurid/plurid-icons-react';
 
 
@@ -229,6 +235,45 @@ const App: React.FC = () => {
                         <PluridIconTranslate
                             theme={theme}
                             title="translate"
+                        />
+                    </div>
+                </div>
+
+
+                <div
+                    style={{
+                        marginBottom: '4rem',
+                    }}
+                >
+                    <h2>
+                        sitting
+                    </h2>
+
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                        }}
+                    >
+                        <PluridIconBranch
+                            theme={theme}
+                            title="branch"
+                        />
+                        <PluridIconCopyCurrentState
+                            theme={theme}
+                            title="copy current state"
+                        />
+                        <PluridIconCopyStateHistory
+                            theme={theme}
+                            title="copy state history"
+                        />
+                        <PluridIconSittings
+                            theme={theme}
+                            title="sittings"
+                        />
+                        <PluridIconStateShareImage
+                            theme={theme}
+                            title="state share image"
                         />
                     </div>
                 </div>
