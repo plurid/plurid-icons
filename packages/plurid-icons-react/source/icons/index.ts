@@ -5,6 +5,7 @@ import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
 import PluridIconExplore from './general/PluridIconExplore';
 import PluridIconMore from './general/PluridIconMore';
+import PluridIconObliterate from './general/PluridIconObliterate';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
@@ -37,6 +38,7 @@ export {
     PluridIconDelete,
     PluridIconExplore,
     PluridIconMore,
+    PluridIconObliterate,
     PluridIconSettings,
     PluridIconSpeak,
     PluridIconStatistics,
