@@ -33,7 +33,7 @@ const IconSet: React.FC<IconSetProperties> = (properties) => {
                 style={{
                     display: 'grid',
                     gridGap: '4rem',
-                    gridTemplateColumns: 'repeat(12, 5rem)',
+                    gridTemplateColumns: 'repeat(9, 5rem)',
                     alignItems: 'center',
                     justifyItems: 'center',
                     justifyContent: 'center',
