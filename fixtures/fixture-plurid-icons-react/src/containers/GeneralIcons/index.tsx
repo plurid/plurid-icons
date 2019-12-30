@@ -192,12 +192,16 @@ const icons: IconListItem[] = [
 interface GeneralIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
+    titleAppearTime: number;
+    titleDisappearTime: number;
 }
 
 const GeneralIcons: React.FC<GeneralIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
+        titleAppearTime,
+        titleDisappearTime,
     } = properties;
 
     return (
@@ -216,6 +220,8 @@ const GeneralIcons: React.FC<GeneralIconsProperties> = (properties) => {
                         theme={theme}
                         title={title}
                         size={iconSize}
+                        titleAppearTime={titleAppearTime}
+                        titleDisappearTime={titleDisappearTime}
                     />
                 );
             })}

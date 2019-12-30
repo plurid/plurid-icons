@@ -67,12 +67,16 @@ const icons: IconListItem[] = [
 interface PluridSpecificIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
+    titleAppearTime: number;
+    titleDisappearTime: number;
 }
 
 const PluridSpecificIcons: React.FC<PluridSpecificIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
+        titleAppearTime,
+        titleDisappearTime,
     } = properties;
 
     return (
@@ -91,6 +95,8 @@ const PluridSpecificIcons: React.FC<PluridSpecificIconsProperties> = (properties
                         theme={theme}
                         title={title}
                         size={iconSize}
+                        titleAppearTime={titleAppearTime}
+                        titleDisappearTime={titleDisappearTime}
                     />
                 );
             })}

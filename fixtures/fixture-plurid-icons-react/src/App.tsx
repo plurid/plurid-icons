@@ -19,6 +19,8 @@ import themes, { Theme } from '@plurid/plurid-themes';
 const App: React.FC = () => {
     const [theme, setTheme] = useState<Theme>(themes.depict);
     const [iconSize, setIconSize] = useState<'small' | 'normal' | 'large'>('normal');
+    const [titleAppearTime, setTitleAppearTime] = useState(600);
+    const [titleDisappearTime, setTitleDisappearTime] = useState(300);
 
     return (
         <div className="App"
@@ -46,6 +48,10 @@ const App: React.FC = () => {
                     theme={theme}
                     iconSize={iconSize}
                     setIconSize={setIconSize}
+                    titleAppearTime={titleAppearTime}
+                    setTitleAppearTime={setTitleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
+                    setTitleDisappearTime={setTitleDisappearTime}
                 />
             </div>
 
@@ -59,26 +65,36 @@ const App: React.FC = () => {
                 <GeneralIcons
                     theme={theme}
                     iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
                 />
 
                 <GradingIcons
                     theme={theme}
                     iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
                 />
 
                 <MediaIcons
                     theme={theme}
                     iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
                 />
 
                 <PluridSpecificIcons
                     theme={theme}
                     iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
                 />
 
                 <SittingIcons
                     theme={theme}
                     iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
                 />
             </div>
         </div>
