@@ -5,7 +5,6 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
-    PluridSwitch,
     PluridDropdown,
 } from '@plurid/plurid-ui-react';
 

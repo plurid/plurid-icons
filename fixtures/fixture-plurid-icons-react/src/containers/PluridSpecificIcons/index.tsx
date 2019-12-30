@@ -8,6 +8,9 @@ import {
     PluridIconDocuments,
     PluridIconFirstPerson,
     PluridIconGlobal,
+    PluridIconLayout,
+    PluridIconOrder,
+    PluridIconRevert,
     PluridIconRotate,
     PluridIconScale,
     PluridIconTranslate,
@@ -33,6 +36,18 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconGlobal,
         title: 'global',
+    },
+    {
+        Element: PluridIconLayout,
+        title: 'layout',
+    },
+    {
+        Element: PluridIconOrder,
+        title: 'order',
+    },
+    {
+        Element: PluridIconRevert,
+        title: 'revert',
     },
     {
         Element: PluridIconRotate,

@@ -5,12 +5,10 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
-    PluridIconBranch,
-    PluridIconCopyCurrentState,
-    PluridIconCopyStateHistory,
-    PluridIconNewStateline,
-    PluridIconSittings,
-    PluridIconStateShareImage,
+    PluridIconMean,
+    PluridIconMedian,
+    PluridIconMode,
+    PluridIconRange,
 } from '@plurid/plurid-icons-react';
 
 import IconSet from '../../components/IconSet';
@@ -23,38 +21,30 @@ import {
 
 const icons: IconListItem[] = [
     {
-        Element: PluridIconBranch,
-        title: 'branch',
+        Element: PluridIconMean,
+        title: 'mean',
     },
     {
-        Element: PluridIconCopyCurrentState,
-        title: 'copy current state',
+        Element: PluridIconMedian,
+        title: 'median',
     },
     {
-        Element: PluridIconCopyStateHistory,
-        title: 'copy state history',
+        Element: PluridIconMode,
+        title: 'mode',
     },
     {
-        Element: PluridIconNewStateline,
-        title: 'new stateline',
-    },
-    {
-        Element: PluridIconSittings,
-        title: 'sittings',
-    },
-    {
-        Element: PluridIconStateShareImage,
-        title: 'state share image',
+        Element: PluridIconRange,
+        title: 'range',
     },
 ];
 
 
-interface SittingIconsProperties {
+interface GradingIconsProperties {
     theme: Theme;
     iconSize: 'small' | 'normal' | 'large';
 }
 
-const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
+const GradingIcons: React.FC<GradingIconsProperties> = (properties) => {
     const {
         theme,
         iconSize,
@@ -62,7 +52,7 @@ const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
 
     return (
         <IconSet
-            title="sitting icons"
+            title="grading icons"
         >
             {icons.map(icon => {
                 const {
@@ -84,4 +74,4 @@ const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
 }
 
 
-export default SittingIcons;
+export default GradingIcons;

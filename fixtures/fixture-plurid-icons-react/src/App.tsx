@@ -7,6 +7,7 @@ import ThemePicker from './components/ThemePicker';
 import Options from './components/Options';
 
 import GeneralIcons from './containers/GeneralIcons';
+import GradingIcons from './containers/GradingIcons';
 import MediaIcons from './containers/MediaIcons';
 import PluridSpecificIcons from './containers/PluridSpecificIcons';
 import SittingIcons from './containers/SittingIcons';
@@ -56,6 +57,11 @@ const App: React.FC = () => {
                 }}
             >
                 <GeneralIcons
+                    theme={theme}
+                    iconSize={iconSize}
+                />
+
+                <GradingIcons
                     theme={theme}
                     iconSize={iconSize}
                 />
