@@ -31,6 +31,13 @@ import PluridIconRotate from './plurid-specific/PluridIconRotate';
 import PluridIconScale from './plurid-specific/PluridIconScale';
 import PluridIconTranslate from './plurid-specific/PluridIconTranslate';
 
+/** sitting */
+import PluridIconBranch from './sitting/PluridIconBranch';
+import PluridIconCopyCurrentState from './sitting/PluridIconCopyCurrentState';
+import PluridIconCopyStateHistory from './sitting/PluridIconCopyStateHistory';
+import PluridIconSittings from './sitting/PluridIconSittings';
+import PluridIconStateShareImage from './sitting/PluridIconStateShareImage';
+
 
 
 export {
@@ -66,4 +73,11 @@ export {
     PluridIconRotate,
     PluridIconScale,
     PluridIconTranslate,
+
+    /** sitting */
+    PluridIconBranch,
+    PluridIconCopyCurrentState,
+    PluridIconCopyStateHistory,
+    PluridIconSittings,
+    PluridIconStateShareImage,
 }
