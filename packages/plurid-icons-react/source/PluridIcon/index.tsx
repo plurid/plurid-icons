@@ -5,6 +5,10 @@ import React, {
 } from 'react';
 
 import {
+    plurid,
+} from '@plurid/plurid-themes';
+
+import {
     StyledPluridIcon,
     StyledPluridIconImage,
     StyledPluridIconTitle,
@@ -35,6 +39,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
 
         children,
     } = properties;
+
+    const activeTheme = theme || plurid;
 
     const [imageSize, setImageSize] = useState(IMAGE_SIZES.NORMAL);
 
@@ -95,13 +101,13 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
 
     return (
         <StyledPluridIcon
-            theme={theme}
+            theme={activeTheme}
             onMouseEnter={() => setMouseOver(true)}
             onMouseLeave={() => setMouseOver(false)}
             onMouseMove={() => mouseOver ? setMouseOver(true) : null}
         >
             <StyledPluridIconImage
-                theme={theme}
+                theme={activeTheme}
                 imageSize={imageSize}
             >
                 {children}
@@ -111,7 +117,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
             && title
             && (
                 <StyledPluridIconTitle
-                    theme={theme}
+                    theme={activeTheme}
                     imageSize={imageSize}
                 >
                     {title}
