@@ -7,6 +7,7 @@ import themes, { Theme } from '@plurid/plurid-themes';
 
 import {
     PluridIconAdd,
+    PluridIconMore,
 } from '@plurid/plurid-icons-react';
 
 
@@ -49,6 +50,10 @@ const App: React.FC = () => {
                     size="normal"
                     // titleAppearTime={200}
                     // titleDisappearTime={200}
+                />
+                <PluridIconMore
+                    theme={theme}
+                    title="more"
                 />
             </div>
         </div>
