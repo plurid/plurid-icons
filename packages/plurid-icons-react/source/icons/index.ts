@@ -3,10 +3,12 @@ import PluridIconAdd from './general/PluridIconAdd';
 import PluridIconAddAlbum from './general/PluridIconAddAlbum';
 import PluridIconAddImage from './general/PluridIconAddImage';
 import PluridIconAdminSpace from './general/PluridIconAdminSpace';
+import PluridIconApps from './general/PluridIconApps';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
 import PluridIconEdit from './general/PluridIconEdit';
+import PluridIconEmail from './general/PluridIconEmail';
 import PluridIconExpandMinus from './general/PluridIconExpandMinus';
 import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
@@ -18,12 +20,14 @@ import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
 import PluridIconObliterate from './general/PluridIconObliterate';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
+import PluridIconPolicies from './general/PluridIconPolicies';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconSpace from './general/PluridIconSpace';
 import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
 import PluridIconSubscription from './general/PluridIconSubscription';
 import PluridIconSystem from './general/PluridIconSystem';
+import PluridIconUnlocked from './general/PluridIconUnlocked';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
 
@@ -68,10 +72,12 @@ export {
     PluridIconAddAlbum,
     PluridIconAddImage,
     PluridIconAdminSpace,
+    PluridIconApps,
     PluridIconCommand,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
+    PluridIconEmail,
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
@@ -83,12 +89,14 @@ export {
     PluridIconMore,
     PluridIconObliterate,
     PluridIconPersonalSpace,
+    PluridIconPolicies,
     PluridIconSettings,
     PluridIconSpace,
     PluridIconSpeak,
     PluridIconStatistics,
     PluridIconSubscription,
     PluridIconSystem,
+    PluridIconUnlocked,
     PluridIconUsers,
     PluridIconWorldSpace,
 

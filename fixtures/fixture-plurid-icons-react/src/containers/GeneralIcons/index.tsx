@@ -9,10 +9,12 @@ import {
     PluridIconAddAlbum,
     PluridIconAddImage,
     PluridIconAdminSpace,
+    PluridIconApps,
     PluridIconCommand,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
+    PluridIconEmail,
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
@@ -24,12 +26,14 @@ import {
     PluridIconMore,
     PluridIconObliterate,
     PluridIconPersonalSpace,
+    PluridIconPolicies,
     PluridIconSettings,
     PluridIconSpace,
     PluridIconSpeak,
     PluridIconStatistics,
     PluridIconSubscription,
     PluridIconSystem,
+    PluridIconUnlocked,
     PluridIconUsers,
     PluridIconWorldSpace,
 } from '@plurid/plurid-icons-react';
@@ -60,6 +64,10 @@ const icons: IconListItem[] = [
         title: 'admin space',
     },
     {
+        Element: PluridIconApps,
+        title: 'apps',
+    },
+    {
         Element: PluridIconCommand,
         title: 'command',
     },
@@ -74,6 +82,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconEdit,
         title: 'edit',
+    },
+    {
+        Element: PluridIconEmail,
+        title: 'email',
     },
     {
         Element: PluridIconExpandMinus,
@@ -120,6 +132,10 @@ const icons: IconListItem[] = [
         title: 'personal space',
     },
     {
+        Element: PluridIconPolicies,
+        title: 'policies',
+    },
+    {
         Element: PluridIconSettings,
         title: 'settings',
     },
@@ -142,6 +158,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconSystem,
         title: 'system',
+    },
+    {
+        Element: PluridIconUnlocked,
+        title: 'unlocked',
     },
     {
         Element: PluridIconUsers,
