@@ -50,6 +50,7 @@ import PluridIconVolumeMiddle from './media/PluridIconVolumeMiddle';
 import PluridIconVolumeMuted from './media/PluridIconVolumeMuted';
 
 /** plurid specific */
+import PluridIconDe from './plurid-specific/PluridIconDe';
 import PluridIconDocuments from './plurid-specific/PluridIconDocuments';
 import PluridIconFirstPerson from './plurid-specific/PluridIconFirstPerson';
 import PluridIconGlobal from './plurid-specific/PluridIconGlobal';
@@ -123,6 +124,7 @@ export {
     PluridIconVolumeMuted,
 
     /** plurid specific */
+    PluridIconDe,
     PluridIconDocuments,
     PluridIconFirstPerson,
     PluridIconGlobal,
