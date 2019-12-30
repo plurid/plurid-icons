@@ -12,6 +12,7 @@ import {
     PluridIconDelete,
     PluridIconExplore,
     PluridIconMore,
+    PluridIconObliterate,
     PluridIconSettings,
     PluridIconSpeak,
     PluridIconStatistics,
@@ -105,6 +106,11 @@ const App: React.FC = () => {
                         <PluridIconMore
                             theme={theme}
                             title="more"
+                        />
+                        <PluridIconObliterate
+                            theme={theme}
+                            title="obliterate"
+                            size="large"
                         />
                         <PluridIconSettings
                             theme={theme}
