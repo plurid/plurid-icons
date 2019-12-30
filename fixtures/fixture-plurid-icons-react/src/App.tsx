@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
 
+import ThemePicker from './components/ThemePicker';
+
 import themes, { Theme } from '@plurid/plurid-themes';
 
-import ThemePicker from './components/ThemePicker';
+import {
+    PluridIconAdd,
+} from '@plurid/plurid-icons-react';
 
 
 
@@ -36,6 +40,11 @@ const App: React.FC = () => {
 
             <div>
                 icons
+
+                <PluridIconAdd
+                    theme={theme}
+                    title="add"
+                />
             </div>
         </div>
     );
