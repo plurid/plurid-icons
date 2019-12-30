@@ -6,6 +6,7 @@ import {
 
 import {
     PluridSwitch,
+    PluridDropdown,
 } from '@plurid/plurid-ui-react';
 
 
@@ -19,6 +20,8 @@ interface OptionsProperties {
 const Options: React.FC<OptionsProperties> = (properties) => {
     const {
         theme,
+        iconSize,
+        setIconSize,
     } = properties;
 
     return (
@@ -33,7 +36,16 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                 justifyContent: 'center',
             }}
         >
-            <PluridSwitch
+            <PluridDropdown
+                theme={theme}
+                selected={iconSize}
+                selectables={['small', 'normal', 'large']}
+                atSelect={(selection) => {
+                    setIconSize(selection);
+                }}
+            />
+
+            {/* <PluridSwitch
                 theme={theme}
                 checked={false}
                 atChange={() => {}}
@@ -49,7 +61,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                 onClick={() => {}}
             >
                 foo
-            </div>
+            </div> */}
         </div>
     );
 }

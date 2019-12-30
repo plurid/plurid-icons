@@ -14,6 +14,34 @@ import {
 
 import IconSet from '../../components/IconSet';
 
+import {
+    IconListItem,
+} from '../../interfaces';
+
+
+
+const icons: IconListItem[] = [
+    {
+        Element: PluridIconBranch,
+        title: 'branch',
+    },
+    {
+        Element: PluridIconCopyCurrentState,
+        title: 'copy current state',
+    },
+    {
+        Element: PluridIconCopyStateHistory,
+        title: 'copy state history',
+    },
+    {
+        Element: PluridIconSittings,
+        title: 'sittings',
+    },
+    {
+        Element: PluridIconStateShareImage,
+        title: 'state share image',
+    },
+];
 
 
 interface SittingIconsProperties {
@@ -31,31 +59,21 @@ const SittingIcons: React.FC<SittingIconsProperties> = (properties) => {
         <IconSet
             title="sitting icons"
         >
-            <PluridIconBranch
-                theme={theme}
-                title="branch"
-                size={iconSize}
-            />
-            <PluridIconCopyCurrentState
-                theme={theme}
-                title="copy current state"
-                size={iconSize}
-            />
-            <PluridIconCopyStateHistory
-                theme={theme}
-                title="copy state history"
-                size={iconSize}
-            />
-            <PluridIconSittings
-                theme={theme}
-                title="sittings"
-                size={iconSize}
-            />
-            <PluridIconStateShareImage
-                theme={theme}
-                title="state share image"
-                size={iconSize}
-            />
+            {icons.map(icon => {
+                const {
+                    Element,
+                    title,
+                } = icon;
+
+                return (
+                    <Element
+                        key={title}
+                        theme={theme}
+                        title={title}
+                        size={iconSize}
+                    />
+                );
+            })}
         </IconSet>
     );
 }

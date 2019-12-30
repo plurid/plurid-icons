@@ -15,6 +15,38 @@ import {
 
 import IconSet from '../../components/IconSet';
 
+import {
+    IconListItem,
+} from '../../interfaces';
+
+
+
+const icons: IconListItem[] = [
+    {
+        Element: PluridIconPause,
+        title: 'pause',
+    },
+    {
+        Element: PluridIconPlay,
+        title: 'play',
+    },
+    {
+        Element: PluridIconVolumeHigh,
+        title: 'volume high',
+    },
+    {
+        Element: PluridIconVolumeMiddle,
+        title: 'volume middle',
+    },
+    {
+        Element: PluridIconVolumeLow,
+        title: 'volume low',
+    },
+    {
+        Element: PluridIconVolumeMuted,
+        title: 'volume muted',
+    },
+];
 
 
 interface MediaIconsProperties {
@@ -32,36 +64,21 @@ const MediaIcons: React.FC<MediaIconsProperties> = (properties) => {
         <IconSet
             title="media icons"
         >
-            <PluridIconPause
-                theme={theme}
-                title="pause"
-                size={iconSize}
-            />
-            <PluridIconPlay
-                theme={theme}
-                title="play"
-                size={iconSize}
-            />
-            <PluridIconVolumeHigh
-                theme={theme}
-                title="volume high"
-                size={iconSize}
-            />
-            <PluridIconVolumeLow
-                theme={theme}
-                title="volume low"
-                size={iconSize}
-            />
-            <PluridIconVolumeMiddle
-                theme={theme}
-                title="volume middle"
-                size={iconSize}
-            />
-            <PluridIconVolumeMuted
-                theme={theme}
-                title="volume muted"
-                size={iconSize}
-            />
+            {icons.map(icon => {
+                const {
+                    Element,
+                    title,
+                } = icon;
+
+                return (
+                    <Element
+                        key={title}
+                        theme={theme}
+                        title={title}
+                        size={iconSize}
+                    />
+                );
+            })}
         </IconSet>
     );
 }
