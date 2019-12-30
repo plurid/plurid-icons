@@ -24,6 +24,74 @@ import {
 
 import IconSet from '../../components/IconSet';
 
+import {
+    IconListItem,
+} from '../../interfaces';
+
+
+
+const icons: IconListItem[] = [
+    {
+        Element: PluridIconAdd,
+        title: 'add',
+    },
+    {
+        Element: PluridIconAddAlbum,
+        title: 'add album',
+    },
+    {
+        Element: PluridIconAddImage,
+        title: 'add image',
+    },
+    {
+        Element: PluridIconAdminSpace,
+        title: 'admin space',
+    },
+    {
+        Element: PluridIconCommand,
+        title: 'command',
+    },
+    {
+        Element: PluridIconCopy,
+        title: 'copy',
+    },
+    {
+        Element: PluridIconDelete,
+        title: 'delete',
+    },
+    {
+        Element: PluridIconExplore,
+        title: 'explore',
+    },
+    {
+        Element: PluridIconMore,
+        title: 'more',
+    },
+    {
+        Element: PluridIconObliterate,
+        title: 'obliterate',
+    },
+    {
+        Element: PluridIconSettings,
+        title: 'settings',
+    },
+    {
+        Element: PluridIconSpeak,
+        title: 'speak',
+    },
+    {
+        Element: PluridIconStatistics,
+        title: 'statistics',
+    },
+    {
+        Element: PluridIconSystem,
+        title: 'system',
+    },
+    {
+        Element: PluridIconUsers,
+        title: 'users',
+    },
+];
 
 
 interface GeneralIconsProperties {
@@ -41,81 +109,21 @@ const GeneralIcons: React.FC<GeneralIconsProperties> = (properties) => {
         <IconSet
             title="general icons"
         >
-            <PluridIconAdd
-                theme={theme}
-                title="add"
-                size={iconSize}
-            />
-            <PluridIconAddAlbum
-                theme={theme}
-                title="add album"
-                size={iconSize}
-            />
-            <PluridIconAddImage
-                theme={theme}
-                title="add image"
-                size={iconSize}
-            />
-            <PluridIconAdminSpace
-                theme={theme}
-                title="admin space"
-                size={iconSize}
-            />
-            <PluridIconCommand
-                theme={theme}
-                title="command"
-                size={iconSize}
-            />
-            <PluridIconCopy
-                theme={theme}
-                title="copy"
-                size={iconSize}
-            />
-            <PluridIconDelete
-                theme={theme}
-                title="delete"
-                size={iconSize}
-            />
-            <PluridIconExplore
-                theme={theme}
-                title="explore"
-                size={iconSize}
-            />
-            <PluridIconMore
-                theme={theme}
-                title="more"
-                size={iconSize}
-            />
-            <PluridIconObliterate
-                theme={theme}
-                title="obliterate"
-                size={iconSize}
-            />
-            <PluridIconSettings
-                theme={theme}
-                title="settings"
-                size={iconSize}
-            />
-            <PluridIconSpeak
-                theme={theme}
-                title="speak"
-                size={iconSize}
-            />
-            <PluridIconStatistics
-                theme={theme}
-                title="statistics"
-                size={iconSize}
-            />
-            <PluridIconSystem
-                theme={theme}
-                title="system"
-                size={iconSize}
-            />
-            <PluridIconUsers
-                theme={theme}
-                title="users"
-                size={iconSize}
-            />
+            {icons.map(icon => {
+                const {
+                    Element,
+                    title,
+                } = icon;
+
+                return (
+                    <Element
+                        key={title}
+                        theme={theme}
+                        title={title}
+                        size={iconSize}
+                    />
+                );
+            })}
         </IconSet>
     );
 }
