@@ -3,6 +3,10 @@ export * from './icons';
 import PluridIcon from './PluridIcon';
 
 import {
+    ICON_SIZES,
+} from './enumerations';
+
+import {
     PluridIconProperties,
 } from './interfaces';
 
@@ -10,5 +14,8 @@ import {
 
 export {
     PluridIcon,
+
+    ICON_SIZES,
+
     PluridIconProperties,
 }
