@@ -42,6 +42,12 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
     } = properties;
 
     const activeTheme = theme || plurid;
+    const activeTitleAppearTime = typeof titleAppearTime === 'number'
+        ? titleAppearTime
+        : DEFAULT_TITLE_APPEAR_TIME;
+    const activeTitleDisappearTime = typeof titleDisappearTime === 'number'
+        ? titleDisappearTime
+        : DEFAULT_TITLE_APPEAR_TIME;
 
     const [imageSize, setImageSize] = useState(IMAGE_SIZES.NORMAL);
 
@@ -79,7 +85,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
                 () => {
                     setShowTitle(true);
                 },
-                titleAppearTime || DEFAULT_TITLE_APPEAR_TIME,
+                activeTitleAppearTime,
             );
 
             clearTimeout(hoverOutTimeout.current);
@@ -93,7 +99,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
                         clearTimeout(hoverInTimeout.current);
                     }
                 },
-                titleDisappearTime || DEFAULT_TITLE_DISAPPEAR_TIME,
+                activeTitleDisappearTime,
             );
         }
     }, [
