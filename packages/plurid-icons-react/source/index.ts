@@ -3,7 +3,7 @@ export * from './icons';
 import PluridIcon from './PluridIcon';
 
 import {
-    ICON_SIZES,
+    PLURID_ICON_SIZES,
 } from './enumerations';
 
 import {
@@ -15,7 +15,7 @@ import {
 export {
     PluridIcon,
 
-    ICON_SIZES,
+    PLURID_ICON_SIZES,
 
     PluridIconProperties,
 }

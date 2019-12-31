@@ -15,13 +15,13 @@ import {
 } from './styled';
 
 import {
-    ICON_SIZE_VALUES,
+    PLURID_ICON_SIZES_VALUES,
     DEFAULT_TITLE_APPEAR_TIME,
     DEFAULT_TITLE_DISAPPEAR_TIME,
 } from '../constants';
 
 import {
-    ICON_SIZES,
+    PLURID_ICON_SIZES,
 } from '../enumerations';
 
 import {
@@ -53,7 +53,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
         ? titleDisappearTime
         : DEFAULT_TITLE_DISAPPEAR_TIME;
 
-    const [imageSize, setImageSize] = useState(ICON_SIZE_VALUES.normal);
+    const [imageSize, setImageSize] = useState(PLURID_ICON_SIZES_VALUES.normal);
 
     const [mouseOver, setMouseOver] = useState(false);
     const [showTitle, setShowTitle] = useState(false);
@@ -66,17 +66,17 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
             }
 
             switch (size) {
-                case ICON_SIZES.small:
-                    setImageSize(ICON_SIZE_VALUES.small);
+                case PLURID_ICON_SIZES.small:
+                    setImageSize(PLURID_ICON_SIZES_VALUES.small);
                     break;
-                case ICON_SIZES.normal:
-                    setImageSize(ICON_SIZE_VALUES.normal);
+                case PLURID_ICON_SIZES.normal:
+                    setImageSize(PLURID_ICON_SIZES_VALUES.normal);
                     break;
-                case ICON_SIZES.large:
-                    setImageSize(ICON_SIZE_VALUES.large);
+                case PLURID_ICON_SIZES.large:
+                    setImageSize(PLURID_ICON_SIZES_VALUES.large);
                     break;
                 default:
-                    setImageSize(ICON_SIZE_VALUES.normal);
+                    setImageSize(PLURID_ICON_SIZES_VALUES.normal);
             }
         }
     }, [
