@@ -12,6 +12,8 @@ import MediaIcons from './containers/MediaIcons';
 import PluridSpecificIcons from './containers/PluridSpecificIcons';
 import SittingIcons from './containers/SittingIcons';
 
+import githubLogo from './assets/icons/github-logo.png';
+
 import themes, { Theme } from '@plurid/plurid-themes';
 
 
@@ -55,12 +57,28 @@ const App: React.FC = () => {
                 />
             </div>
 
-            <div style={{ height: 140 }} />
+            <div style={{ height: 230 }} />
+
+            <h1>
+                plurid' icons
+                <a
+                    href="https://github.com/plurid/plurid-icons"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src={githubLogo}
+                        alt="github"
+                        height={25}
+                        style={{
+                            marginLeft: 15,
+                            filter: 'invert(1)',
+                        }}
+                    />
+                </a>
+            </h1>
 
             <div
-                style={{
-                    // minHeight: '100vh',
-                }}
             >
                 <GeneralIcons
                     theme={theme}
