@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>more</title>
+  <g id="more">
+    <rect class="cls-1" x="380.5" width="240" height="240" rx="50"/>
+    <rect class="cls-1" x="380.5" y="380" width="240" height="240" rx="50"/>
+    <rect class="cls-1" x="380.5" y="760" width="240" height="240" rx="50"/>
+  </g>
+</svg>

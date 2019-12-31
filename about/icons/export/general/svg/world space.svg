@@ -1,0 +1,12 @@
+<svg id="world_space" data-name="world space" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>world space</title>
+  <polygon class="cls-1" points="519.5 19 519.5 217 802.5 500 519.5 783 519.5 981 1000.5 500 519.5 19"/>
+  <polygon class="cls-1" points="481.5 19 481.5 217 198.5 500 481.5 783 481.5 981 0.51 500 481.5 19"/>
+</svg>

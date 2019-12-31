@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>pause</title>
+  <g id="pause">
+    <rect class="cls-1" x="166" y="41.5" width="150" height="917"/>
+    <rect class="cls-1" x="685" y="41.5" width="150" height="917"/>
+  </g>
+</svg>

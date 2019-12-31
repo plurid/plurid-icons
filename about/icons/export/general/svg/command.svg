@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>command</title>
+  <g id="command">
+    <g>
+      <path class="cls-1" d="M461.37,443.26,45.85,618.86,8.16,501.93,311.59,383.56,8.16,265.21,45.85,148.26,461.37,323.78Z"/>
+      <path class="cls-1" d="M509.68,731.92H992.84V851.74H509.68Z"/>
+    </g>
+  </g>
+</svg>

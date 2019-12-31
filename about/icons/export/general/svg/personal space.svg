@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>personal space</title>
+  <g id="personal_space" data-name="personal space">
+    <polygon class="cls-1" points="18.5 19 18.5 217 301.5 500 18.5 783 18.5 981 499.5 500 18.5 19"/>
+    <polygon class="cls-1" points="980.5 19 980.5 217 697.5 500 980.5 783 980.5 981 499.5 500 980.5 19"/>
+  </g>
+</svg>
