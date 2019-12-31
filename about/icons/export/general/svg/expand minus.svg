@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>expand minus</title>
+  <g id="expand_minus" data-name="expand minus">
+    <path class="cls-1" d="M77.5,422.5h845A77.5,77.5,0,0,1,1000,500h0a77.5,77.5,0,0,1-77.5,77.5H77.5A77.5,77.5,0,0,1,0,500H0A77.5,77.5,0,0,1,77.5,422.5Z"/>
+  </g>
+</svg>

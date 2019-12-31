@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>edit</title>
+  <g id="edit">
+    <rect class="cls-1" x="146.31" y="396.22" width="668.05" height="247.69" transform="translate(-227.05 491.97) rotate(-45)"/>
+    <path class="cls-1" d="M705.22,120,761.15,64.1a123.86,123.86,0,0,1,175.15,0h0a123.86,123.86,0,0,1,0,175.15h0l-55.93,55.93h0L705.22,120Z"/>
+    <polygon class="cls-1" points="165.2 835.4 252.67 922.87 134.41 953.67 16.14 984.46 46.94 866.2 77.73 747.94 165.2 835.4"/>
+  </g>
+</svg>
