@@ -72,7 +72,7 @@ const App: React.FC = () => {
                         height={25}
                         style={{
                             marginLeft: 15,
-                            filter: 'invert(1)',
+                            filter: `invert(${theme.type === 'dark' ? 1 : 0})`,
                         }}
                     />
                 </a>
