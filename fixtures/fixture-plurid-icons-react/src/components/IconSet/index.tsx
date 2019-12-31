@@ -1,5 +1,11 @@
 import React from 'react';
 
+import {
+    StyledIconSet,
+    StyledIconSetTitle,
+    StyledIconSetIcons,
+} from './styled';
+
 
 
 interface IconSetProperties {
@@ -13,35 +19,17 @@ const IconSet: React.FC<IconSetProperties> = (properties) => {
     } = properties;
 
     return (
-        <div
-            style={{
-                paddingBottom: '3rem',
-            }}
-        >
-            <div
-                style={{
-                    marginTop: '3rem',
-                    marginBottom: '2rem',
-                }}
-            >
+        <StyledIconSet>
+            <StyledIconSetTitle>
                 <h2>
                     {title}
                 </h2>
-            </div>
+            </StyledIconSetTitle>
 
-            <div
-                style={{
-                    display: 'grid',
-                    gridGap: '4rem',
-                    gridTemplateColumns: 'repeat(9, 5rem)',
-                    alignItems: 'center',
-                    justifyItems: 'center',
-                    justifyContent: 'center',
-                }}
-            >
+            <StyledIconSetIcons>
                 {children}
-            </div>
-        </div>
+            </StyledIconSetIcons>
+        </StyledIconSet>
     );
 }
 

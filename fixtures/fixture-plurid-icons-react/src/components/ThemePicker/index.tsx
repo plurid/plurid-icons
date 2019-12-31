@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Theme } from '@plurid/plurid-themes';
+import {
+    StyledThemePicker,
+} from './styled';
+
+import {
+    Theme,
+} from '@plurid/plurid-themes';
 
 
 
@@ -20,16 +26,7 @@ const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
     const themeNames = Object.keys(themes);
 
     return (
-        <div
-            style={{
-                height: '80px',
-                display: 'flex',
-                alignItems: 'center',
-                backgroundColor: 'white',
-                color: 'black',
-                marginTop: 10,
-            }}
-        >
+        <StyledThemePicker>
             <div
                 style={{
                     textAlign: 'center',
@@ -37,16 +34,7 @@ const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
                     userSelect: 'none',
                 }}
             >
-                <ul
-                    style={{
-                        listStyle: 'none',
-                        padding: 0,
-                        margin: '0px auto',
-                        display: 'flex',
-                        width: '1200px',
-                        overflow: 'auto',
-                    }}
-                >
+                <ul>
                     {themeNames.map((themeName: any) => {
                         return (
                             <li
@@ -65,7 +53,7 @@ const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
                     })}
                 </ul>
             </div>
-        </div>
+        </StyledThemePicker>
     );
 }
 
