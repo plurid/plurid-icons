@@ -4,6 +4,10 @@ import {
     Theme,
 } from '@plurid/plurid-themes';
 
+import {
+    ICON_SIZES,
+} from '../enumerations';
+
 
 
 export interface PluridIconProperties {
@@ -18,7 +22,7 @@ export interface PluridIconProperties {
      *
      * `'number'` - pixel value specifying height and width.
      */
-    size?: 'small' | 'normal' | 'large' | number;
+    size?: keyof typeof ICON_SIZES | number;
 
     /**
      * Plurid Theme
