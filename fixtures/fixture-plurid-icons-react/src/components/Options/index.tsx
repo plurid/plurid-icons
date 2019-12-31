@@ -1,6 +1,10 @@
 import React from 'react';
 
 import {
+    StyledOptions,
+} from './styled';
+
+import {
     Theme,
 } from '@plurid/plurid-themes';
 
@@ -33,23 +37,14 @@ const Options: React.FC<OptionsProperties> = (properties) => {
     } = properties;
 
     return (
-        <div
-            style={{
-                width: '100%',
-                color: 'black',
-                margin: 10,
-                marginBottom: 20,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-evenly',
-            }}
-        >
+        <StyledOptions>
             <div
                 style={{
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr',
                     columnGap: '0.5rem',
                     alignItems: 'center',
+                    marginBottom: '10px',
                 }}
             >
                 <div>
@@ -73,6 +68,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     gridTemplateColumns: '1fr 1fr',
                     columnGap: '0.5rem',
                     alignItems: 'center',
+                    marginBottom: '10px',
                 }}
             >
                 <div>
@@ -104,7 +100,7 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     atChange={(event) => setTitleDisappearTime(parseInt(event.target.value))}
                 />
             </div>
-        </div>
+        </StyledOptions>
     );
 }
 
