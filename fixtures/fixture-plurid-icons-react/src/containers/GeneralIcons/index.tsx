@@ -10,6 +10,7 @@ import {
     PluridIconAddImage,
     PluridIconAdminSpace,
     PluridIconApps,
+    PluridIconBrainCircuits,
     PluridIconCommand,
     PluridIconContact,
     PluridIconCopy,
@@ -69,6 +70,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconApps,
         title: 'apps',
+    },
+    {
+        Element: PluridIconBrainCircuits,
+        title: 'brain circuits',
     },
     {
         Element: PluridIconCommand,
