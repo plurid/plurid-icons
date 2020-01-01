@@ -40,6 +40,7 @@ export const StyledPluridIconTitle: any = styled.div`
     font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     white-space: nowrap;
+    z-index: 999999;
 
     background-color: ${(props: any) => {
         return props.theme.backgroundColorSecondary;
