@@ -23,9 +23,12 @@ import PluridIconLink from './general/PluridIconLink';
 import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
 import PluridIconObliterate from './general/PluridIconObliterate';
+import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
+import PluridIconSave from './general/PluridIconSave';
 import PluridIconSettings from './general/PluridIconSettings';
+import PluridIconShare from './general/PluridIconShare';
 import PluridIconSpace from './general/PluridIconSpace';
 import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
@@ -98,9 +101,12 @@ export {
     PluridIconLocked,
     PluridIconMore,
     PluridIconObliterate,
+    PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
+    PluridIconSave,
     PluridIconSettings,
+    PluridIconShare,
     PluridIconSpace,
     PluridIconSpeak,
     PluridIconStatistics,
