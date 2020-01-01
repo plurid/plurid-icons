@@ -29,9 +29,12 @@ import {
     PluridIconLocked,
     PluridIconMore,
     PluridIconObliterate,
+    PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
+    PluridIconSave,
     PluridIconSettings,
+    PluridIconShare,
     PluridIconSpace,
     PluridIconSpeak,
     PluridIconStatistics,
@@ -148,6 +151,10 @@ const icons: IconListItem[] = [
         title: 'obliterate',
     },
     {
+        Element: PluridIconPalette,
+        title: 'palette',
+    },
+    {
         Element: PluridIconPersonalSpace,
         title: 'personal space',
     },
@@ -156,8 +163,16 @@ const icons: IconListItem[] = [
         title: 'policies',
     },
     {
+        Element: PluridIconSave,
+        title: 'save',
+    },
+    {
         Element: PluridIconSettings,
         title: 'settings',
+    },
+    {
+        Element: PluridIconShare,
+        title: 'share',
     },
     {
         Element: PluridIconSpace,
