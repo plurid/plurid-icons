@@ -1181,10 +1181,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@plurid/plurid-icons-react@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-icons-react/-/plurid-icons-react-0.1.6.tgz#0d4d84d7e928d191007860780198b730401879ef"
-  integrity sha512-EkmxyzX/vu67yjy5mnvd9Usnew9YcVox73sn0m6fgmEpoa7tMyDCQ+7kl1hpJ4yyXtN9n6AxdLhWkcF+/ukbog==
+"@plurid/plurid-icons-react@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-icons-react/-/plurid-icons-react-0.1.7.tgz#a2de15d4703fccf18f22c364fde2e897e4b674de"
+  integrity sha512-ye1i/Y7kCdffSGSXSAPugFHOdC6kuRNZyTYitjQRX5gTE5b453z25VS89MirN7ovQuXKYmZZtDPyk2XkP5gQ3A==
 
 "@plurid/plurid-themes@^0.1.22":
   version "0.1.22"

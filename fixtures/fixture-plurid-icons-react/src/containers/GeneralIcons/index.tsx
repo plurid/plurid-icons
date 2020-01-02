@@ -13,6 +13,7 @@ import {
     PluridIconBrainCircuits,
     PluridIconCommand,
     PluridIconContact,
+    PluridIconContents,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
@@ -85,6 +86,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconContact,
         title: 'contact',
+    },
+    {
+        Element: PluridIconContents,
+        title: 'contents',
     },
     {
         Element: PluridIconCopy,
