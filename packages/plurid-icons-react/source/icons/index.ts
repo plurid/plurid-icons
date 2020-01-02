@@ -7,6 +7,7 @@ import PluridIconApps from './general/PluridIconApps';
 import PluridIconBrainCircuits from './general/PluridIconBrainCircuits';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconContact from './general/PluridIconContact';
+import PluridIconContents from './general/PluridIconContents';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDelete from './general/PluridIconDelete';
 import PluridIconEdit from './general/PluridIconEdit';
@@ -85,6 +86,7 @@ export {
     PluridIconBrainCircuits,
     PluridIconCommand,
     PluridIconContact,
+    PluridIconContents,
     PluridIconCopy,
     PluridIconDelete,
     PluridIconEdit,
