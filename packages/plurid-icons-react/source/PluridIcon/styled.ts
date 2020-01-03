@@ -29,6 +29,7 @@ export const StyledPluridIconImage: any = styled.div`
 
 export const StyledPluridIconTitle: any = styled.div`
     user-select: none;
+    pointer-events: none;
     position: absolute;
     top: ${(props: any) => {
         return props.imageSize + 10 + 'px';
