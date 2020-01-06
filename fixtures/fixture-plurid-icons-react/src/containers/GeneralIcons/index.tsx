@@ -41,6 +41,8 @@ import {
     PluridIconStatistics,
     PluridIconSubscription,
     PluridIconSystem,
+    PluridIconToolbox,
+    PluridIconTools,
     PluridIconUnlocked,
     PluridIconUsers,
     PluridIconWorldSpace,
@@ -198,6 +200,14 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconSystem,
         title: 'system',
+    },
+    {
+        Element: PluridIconToolbox,
+        title: 'toolbox',
+    },
+    {
+        Element: PluridIconTools,
+        title: 'tools',
     },
     {
         Element: PluridIconUnlocked,
