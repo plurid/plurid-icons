@@ -36,6 +36,7 @@ import PluridIconStatistics from './general/PluridIconStatistics';
 import PluridIconSubscription from './general/PluridIconSubscription';
 import PluridIconSystem from './general/PluridIconSystem';
 import PluridIconToolbox from './general/PluridIconToolbox';
+import PluridIconTools from './general/PluridIconTools';
 import PluridIconUnlocked from './general/PluridIconUnlocked';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
@@ -116,6 +117,7 @@ export {
     PluridIconSubscription,
     PluridIconSystem,
     PluridIconToolbox,
+    PluridIconTools,
     PluridIconUnlocked,
     PluridIconUsers,
     PluridIconWorldSpace,
