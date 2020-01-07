@@ -106,6 +106,15 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
                 activeTitleDisappearTime,
             );
         }
+
+        return () => {
+            if (hoverOutTimeout.current) {
+                clearTimeout(hoverOutTimeout.current);
+            }
+            if (hoverInTimeout.current) {
+                clearTimeout(hoverInTimeout.current);
+            }
+        }
     }, [
         mouseOver,
     ]);
