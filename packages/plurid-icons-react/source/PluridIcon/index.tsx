@@ -41,6 +41,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
         titleDisappearTime,
         theme,
         style,
+        atClick,
 
         children,
     } = properties;
@@ -124,7 +125,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
             theme={activeTheme}
             onMouseEnter={() => setMouseOver(true)}
             onMouseLeave={() => setMouseOver(false)}
-            onMouseMove={() => mouseOver ? setMouseOver(true) : null}
+            onMouseMove={() => !mouseOver ? setMouseOver(true) : null}
+            onClick={(event) => atClick ? atClick(event) : null}
             style={{...style}}
         >
             <StyledPluridIconImage
@@ -134,16 +136,18 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
                 {children}
             </StyledPluridIconImage>
 
-            {showTitle
-            && title
-            && (
-                <StyledPluridIconTitle
-                    theme={activeTheme}
-                    imageSize={imageSize}
-                >
-                    {title}
-                </StyledPluridIconTitle>
-            )}
+            {
+                title
+                && showTitle
+                && (
+                    <StyledPluridIconTitle
+                        theme={activeTheme}
+                        imageSize={imageSize}
+                    >
+                        {title}
+                    </StyledPluridIconTitle>
+                )
+            }
         </StyledPluridIcon>
     );
 }
