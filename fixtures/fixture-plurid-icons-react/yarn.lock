@@ -1181,20 +1181,20 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@plurid/plurid-icons-react@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-icons-react/-/plurid-icons-react-0.1.10.tgz#bcaeb48bcf28a3d32511f60d0cd07e0c6e9cc38b"
-  integrity sha512-RASt9zS+2whTb+AHdgy6/2CQTvYlcmubx2zy1HONBW6e+wRApEF/8AEV2y+Jf91bVLqzzW9vOczA/N6j+0ouuw==
+"@plurid/plurid-icons-react@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-icons-react/-/plurid-icons-react-0.1.14.tgz#b7c65416f1ed00371fa251b16b5574a74b13178e"
+  integrity sha512-JXiq7gOKn365mrdavcIXIcxH9AwfTG1UDK5hz2yLC5VQ6DjFURyZPs/AAKBXqsgthhGWPKVzhM9WNH1/BX4chw==
 
-"@plurid/plurid-themes@^0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.22.tgz#0e2a122d3e45db626288dfb04548e8a3664a434e"
-  integrity sha512-HYnoUgjYZqd8msFzC5Ar2GreAdM/tcmtQePmAi8DFLHD47dfrHDgZZAtO5PTUP5FM9FTzCsQTQtUu6/gKyTE0Q==
+"@plurid/plurid-themes@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.23.tgz#823ce7ac120e392cf62b3a07f4dcafe888fc62c2"
+  integrity sha512-862vnb9FTgXdSTiz5qON3ONwTtSXg9tCFQl11aRDRnOKpjkrZ2LDywm/RvTNiD2WTU7HBnFbL2z2dKEp3gLkaA==
 
-"@plurid/plurid-ui-react@^0.1.42":
-  version "0.1.42"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.42.tgz#71345cb5ee03e333b85f034f00c1036b94ced834"
-  integrity sha512-zusNSdU+c88pgtN4JiRyTFaVLd/SQZCa+Fkh9ppSC1PufPzi4V+H5TaXjJiA1aGaQT4igw7uUiAZuIpdu1waxg==
+"@plurid/plurid-ui-react@^0.1.46":
+  version "0.1.46"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.46.tgz#1c0d1144112fda1307ca27b9c423d05588189daa"
+  integrity sha512-YmKYIut7x67Mj3Jbfgd9DFte+TCcJvJKcJYH9MUmE8/qh6AKUJzb1OnDuoClOPy0EJLDuJGDpaJm5fxc90SkBw==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/styled-components@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.1.tgz#bc40cf5ce0708032f4b148b04ab3c470d3e74026"
-  integrity sha512-cQXT4pkAkM0unk/s26UBrJx9RmJ2rNUn2aDTgzp1rtu+tTkScebE78jbxNWhlqkA43XF3d41CcDlyl9Ldotm2g==
+"@types/styled-components@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.2.tgz#709fa7afd7dc0963b8316a0159240f0fe19a026d"
+  integrity sha512-dngFx2PuGoy0MGE68eHayAmJvLSqWrnTe9w+DnQruu8PS+waWEsKmoBRhkzL2h2pK1OJhzJhVfuiz+oZa4etpA==
   dependencies:
     "@types/hoist-non-react-statics" "*"
     "@types/react" "*"
