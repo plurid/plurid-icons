@@ -5,7 +5,7 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
-    ICON_SIZES,
+    PLURID_ICON_SIZES,
 } from '../enumerations';
 
 
@@ -22,7 +22,7 @@ export interface PluridIconProperties {
      *
      * `'number'` - pixel value specifying height and width.
      */
-    size?: keyof typeof ICON_SIZES | number;
+    size?: keyof typeof PLURID_ICON_SIZES | number;
 
     /**
      * Plurid Theme
@@ -47,4 +47,6 @@ export interface PluridIconProperties {
      * Default `300`ms.
      */
     titleDisappearTime?: number;
+
+    atClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
