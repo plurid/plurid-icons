@@ -15,6 +15,7 @@ import {
     PluridIconContact,
     PluridIconContents,
     PluridIconCopy,
+    PluridIconDeauthored,
     PluridIconDelete,
     PluridIconEdit,
     PluridIconEmail,
@@ -97,6 +98,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconCopy,
         title: 'copy',
+    },
+    {
+        Element: PluridIconDeauthored,
+        title: 'deauthored',
     },
     {
         Element: PluridIconDelete,
