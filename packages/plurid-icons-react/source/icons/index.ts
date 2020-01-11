@@ -9,6 +9,7 @@ import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconContact from './general/PluridIconContact';
 import PluridIconContents from './general/PluridIconContents';
 import PluridIconCopy from './general/PluridIconCopy';
+import PluridIconDeauthored from './general/PluridIconDeauthored';
 import PluridIconDelete from './general/PluridIconDelete';
 import PluridIconEdit from './general/PluridIconEdit';
 import PluridIconEmail from './general/PluridIconEmail';
@@ -91,6 +92,7 @@ export {
     PluridIconContact,
     PluridIconContents,
     PluridIconCopy,
+    PluridIconDeauthored,
     PluridIconDelete,
     PluridIconEdit,
     PluridIconEmail,
