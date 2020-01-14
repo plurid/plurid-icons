@@ -10,8 +10,15 @@ export const StyledPluridIcon = styled.div`
 
 
 export const StyledPluridIconImage: any = styled.div`
-    cursor: pointer;
     user-select: none;
+
+    cursor: ${(props: any) => {
+        if (props.inactive) {
+            return 'default';
+        }
+        return 'pointer';
+    }};
+
     svg {
         display: block;
         fill: ${(props: any) => {
