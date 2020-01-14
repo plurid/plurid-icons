@@ -11,6 +11,7 @@ import {
 
 
 export interface PluridIconProperties {
+    className?: string;
     style?: React.CSSProperties;
 
     /**
@@ -47,6 +48,11 @@ export interface PluridIconProperties {
      * Default `300`ms.
      */
     titleDisappearTime?: number;
+
+    /**
+     * Renders the icon as is (without cursor effects).
+     */
+    inactive?: boolean;
 
     atClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
