@@ -4,6 +4,10 @@ import PluridIconAddAlbum from './general/PluridIconAddAlbum';
 import PluridIconAddImage from './general/PluridIconAddImage';
 import PluridIconAdminSpace from './general/PluridIconAdminSpace';
 import PluridIconApps from './general/PluridIconApps';
+import PluridIconArrowDown from './general/PluridIconArrowDown';
+import PluridIconArrowLeft from './general/PluridIconArrowLeft';
+import PluridIconArrowRight from './general/PluridIconArrowRight';
+import PluridIconArrowUp from './general/PluridIconArrowUp';
 import PluridIconBrainCircuits from './general/PluridIconBrainCircuits';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconContact from './general/PluridIconContact';
@@ -87,6 +91,10 @@ export {
     PluridIconAddImage,
     PluridIconAdminSpace,
     PluridIconApps,
+    PluridIconArrowDown,
+    PluridIconArrowLeft,
+    PluridIconArrowRight,
+    PluridIconArrowUp,
     PluridIconBrainCircuits,
     PluridIconCommand,
     PluridIconContact,
