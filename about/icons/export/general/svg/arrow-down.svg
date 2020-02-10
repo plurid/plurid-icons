@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>arrow-down</title>
+  <g id="arrow-down">
+    <polygon class="cls-1" points="981 259.5 783 259.5 500 542.5 217 259.5 19 259.5 500 740.5 981 259.5"/>
+  </g>
+</svg>
