@@ -77,6 +77,7 @@ import PluridIconTranslate from './plurid-specific/PluridIconTranslate';
 /** programming */
 import PluridIconAccessor from './programming/PluridIconAccessor';
 import PluridIconClassWithType from './programming/PluridIconClassWithType';
+import PluridIconFunction from './programming/PluridIconFunction';
 
 /** sitting */
 import PluridIconBranch from './sitting/PluridIconBranch';
@@ -168,6 +169,7 @@ export {
     /** programming */
     PluridIconAccessor,
     PluridIconClassWithType,
+    PluridIconFunction,
 
     /** sitting */
     PluridIconBranch,

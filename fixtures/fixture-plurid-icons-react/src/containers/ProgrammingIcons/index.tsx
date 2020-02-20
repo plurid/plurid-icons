@@ -7,6 +7,7 @@ import {
 import {
     PluridIconAccessor,
     PluridIconClassWithType,
+    PluridIconFunction,
 } from '@plurid/plurid-icons-react';
 
 import IconSet from '../../components/IconSet';
@@ -25,6 +26,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconClassWithType,
         title: 'class with type parameter',
+    },
+    {
+        Element: PluridIconFunction,
+        title: 'function',
     },
 ];
 
