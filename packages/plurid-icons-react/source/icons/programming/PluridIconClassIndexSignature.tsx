@@ -8,7 +8,7 @@ import {
 
 
 
-const PluridIconFunction: React.FC<PluridIconProperties> = (
+const PluridIconClassIndexSignature: React.FC<PluridIconProperties> = (
     properties,
 ) => {
     return (
@@ -22,4 +22,4 @@ const PluridIconFunction: React.FC<PluridIconProperties> = (
 }
 
 
-export default PluridIconFunction;
+export default PluridIconClassIndexSignature;

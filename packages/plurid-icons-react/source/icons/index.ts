@@ -75,9 +75,43 @@ import PluridIconScale from './plurid-specific/PluridIconScale';
 import PluridIconTranslate from './plurid-specific/PluridIconTranslate';
 
 /** programming */
-import PluridIconAccessor from './programming/PluridIconAccessor';
-import PluridIconClassWithType from './programming/PluridIconClassWithType';
+import PluridIconClass from './programming/PluridIconClass';
+import PluridIconClassAccessor from './programming/PluridIconClassAccessor';
+import PluridIconClassConstructor from './programming/PluridIconClassConstructor';
+import PluridIconClassIndexSignature from './programming/PluridIconClassIndexSignature';
+import PluridIconClassInheritedAccessor from './programming/PluridIconClassInheritedAccessor';
+import PluridIconClassInheritedConstructor from './programming/PluridIconClassInheritedConstructor';
+import PluridIconClassInheritedMethod from './programming/PluridIconClassInheritedMethod';
+import PluridIconClassInheritedProperty from './programming/PluridIconClassInheritedProperty';
+import PluridIconClassMethod from './programming/PluridIconClassMethod';
+import PluridIconClassPrivateAccessor from './programming/PluridIconClassPrivateAccessor';
+import PluridIconClassPrivateMethod from './programming/PluridIconClassPrivateMethod';
+import PluridIconClassPrivateProperty from './programming/PluridIconClassPrivateProperty';
+import PluridIconClassProperty from './programming/PluridIconClassProperty';
+import PluridIconClassProtectedAccessor from './programming/PluridIconClassProtectedAccessor';
+import PluridIconClassProtectedMethod from './programming/PluridIconClassProtectedMethod';
+import PluridIconClassProtectedProperty from './programming/PluridIconClassProtectedProperty';
+import PluridIconClassStaticMethod from './programming/PluridIconClassStaticMethod';
+import PluridIconClassStaticProperty from './programming/PluridIconClassStaticProperty';
+import PluridIconClassTyped from './programming/PluridIconClassTyped';
+import PluridIconEnumeration from './programming/PluridIconEnumeration';
+import PluridIconEnumerationMember from './programming/PluridIconEnumerationMember';
+import PluridIconEnumerationMethod from './programming/PluridIconEnumerationMethod';
+import PluridIconEnumerationProperty from './programming/PluridIconEnumerationProperty';
 import PluridIconFunction from './programming/PluridIconFunction';
+import PluridIconFunctionTyped from './programming/PluridIconFunctionTyped';
+import PluridIconIndexSignature from './programming/PluridIconIndexSignature';
+import PluridIconInterface from './programming/PluridIconInterface';
+import PluridIconInterfaceConstructor from './programming/PluridIconInterfaceConstructor';
+import PluridIconInterfaceIndexSignature from './programming/PluridIconInterfaceIndexSignature';
+import PluridIconInterfaceMethod from './programming/PluridIconInterfaceMethod';
+import PluridIconInterfaceProperty from './programming/PluridIconInterfaceProperty';
+import PluridIconInterfaceTyped from './programming/PluridIconInterfaceTyped';
+import PluridIconModule from './programming/PluridIconModule';
+import PluridIconObjectLiteral from './programming/PluridIconObjectLiteral';
+import PluridIconTypeAlias from './programming/PluridIconTypeAlias';
+import PluridIconTypeAliasTyped from './programming/PluridIconTypeAliasTyped';
+import PluridIconVariable from './programming/PluridIconVariable';
 
 /** sitting */
 import PluridIconBranch from './sitting/PluridIconBranch';
@@ -167,9 +201,43 @@ export {
     PluridIconTranslate,
 
     /** programming */
-    PluridIconAccessor,
-    PluridIconClassWithType,
+    PluridIconClass,
+    PluridIconClassAccessor,
+    PluridIconClassConstructor,
+    PluridIconClassIndexSignature,
+    PluridIconClassInheritedAccessor,
+    PluridIconClassInheritedConstructor,
+    PluridIconClassInheritedMethod,
+    PluridIconClassInheritedProperty,
+    PluridIconClassMethod,
+    PluridIconClassPrivateAccessor,
+    PluridIconClassPrivateMethod,
+    PluridIconClassPrivateProperty,
+    PluridIconClassProperty,
+    PluridIconClassProtectedAccessor,
+    PluridIconClassProtectedMethod,
+    PluridIconClassProtectedProperty,
+    PluridIconClassStaticMethod,
+    PluridIconClassStaticProperty,
+    PluridIconClassTyped,
+    PluridIconEnumeration,
+    PluridIconEnumerationMember,
+    PluridIconEnumerationMethod,
+    PluridIconEnumerationProperty,
     PluridIconFunction,
+    PluridIconFunctionTyped,
+    PluridIconIndexSignature,
+    PluridIconInterface,
+    PluridIconInterfaceConstructor,
+    PluridIconInterfaceIndexSignature,
+    PluridIconInterfaceMethod,
+    PluridIconInterfaceProperty,
+    PluridIconInterfaceTyped,
+    PluridIconModule,
+    PluridIconObjectLiteral,
+    PluridIconTypeAlias,
+    PluridIconTypeAliasTyped,
+    PluridIconVariable,
 
     /** sitting */
     PluridIconBranch,
