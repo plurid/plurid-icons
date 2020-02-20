@@ -59,6 +59,10 @@ const Options: React.FC<OptionsProperties> = (properties) => {
                     atSelect={(selection) => {
                         setIconSize(selection);
                     }}
+                    style={{
+                        fontSize: '1rem',
+                    }}
+                    width={90}
                 />
             </div>
 
