@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #8c8c8c;
+      }
+
+      .cls-3 {
+        fill: #fefefe;
+      }
+
+      .cls-4 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <title>inherited method</title>
+  <g id="inherited_method" data-name="inherited method">
+    <g class="cls-1">
+      <polygon class="cls-2" points="440.51 501.25 521.23 849.44 202.55 927.65 440.51 501.25"/>
+      <polygon class="cls-3" points="202.55 927.65 167.31 907.17 405.28 480.78 440.51 501.25 202.55 927.65"/>
+      <polygon class="cls-4" points="576.01 734.59 540.77 714.12 446.57 307.73 481.81 328.21 576.01 734.59"/>
+      <polygon class="cls-2" points="531.78 80.23 677.68 709.64 576.01 734.59 481.81 328.21 204.07 825.87 101.61 851.01 531.78 80.23"/>
+      <polygon class="cls-3" points="101.61 851.01 66.37 830.53 496.54 59.75 531.78 80.23 101.61 851.01"/>
+    </g>
+    <g class="cls-1">
+      <polygon class="cls-2" points="765.88 655.14 820.52 890.88 604.76 943.83 765.88 655.14"/>
+      <polygon class="cls-3" points="604.76 943.83 569.52 923.35 730.64 634.66 765.88 655.14 604.76 943.83"/>
+      <polygon class="cls-4" points="857.61 813.12 822.37 792.64 758.59 517.5 793.83 537.98 857.61 813.12"/>
+      <polygon class="cls-2" points="827.66 370.08 926.45 796.23 857.61 813.12 793.83 537.98 605.78 874.92 536.41 891.95 827.66 370.08"/>
+      <polygon class="cls-3" points="536.41 891.95 501.17 871.47 792.42 349.6 827.66 370.08 536.41 891.95"/>
+    </g>
+  </g>
+</svg>
