@@ -17,7 +17,7 @@ const PluridIconAccessor: React.FC<PluridIconProperties> = (
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
                 <defs>
-                    <style>
+                    {/* <style>
                         {`
                             .cls-1 {
                                 isolation: isolate;
@@ -39,7 +39,7 @@ const PluridIconAccessor: React.FC<PluridIconProperties> = (
                                 fill: #8c8c8c;
                             }
                         `}
-                    </style>
+                    </style> */}
                 </defs>
 
                 <g className="cls-1">
