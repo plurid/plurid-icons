@@ -5,9 +5,43 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
-    PluridIconAccessor,
-    PluridIconClassWithType,
+    PluridIconClass,
+    PluridIconClassAccessor,
+    PluridIconClassConstructor,
+    PluridIconClassIndexSignature,
+    PluridIconClassInheritedAccessor,
+    PluridIconClassInheritedConstructor,
+    PluridIconClassInheritedMethod,
+    PluridIconClassInheritedProperty,
+    PluridIconClassMethod,
+    PluridIconClassPrivateAccessor,
+    PluridIconClassPrivateMethod,
+    PluridIconClassPrivateProperty,
+    PluridIconClassProperty,
+    PluridIconClassProtectedAccessor,
+    PluridIconClassProtectedMethod,
+    PluridIconClassProtectedProperty,
+    PluridIconClassStaticMethod,
+    PluridIconClassStaticProperty,
+    PluridIconClassTyped,
+    PluridIconEnumeration,
+    PluridIconEnumerationMember,
+    PluridIconEnumerationMethod,
+    PluridIconEnumerationProperty,
     PluridIconFunction,
+    PluridIconFunctionTyped,
+    PluridIconIndexSignature,
+    PluridIconInterface,
+    PluridIconInterfaceConstructor,
+    PluridIconInterfaceIndexSignature,
+    PluridIconInterfaceMethod,
+    PluridIconInterfaceProperty,
+    PluridIconInterfaceTyped,
+    PluridIconModule,
+    PluridIconObjectLiteral,
+    PluridIconTypeAlias,
+    PluridIconTypeAliasTyped,
+    PluridIconVariable,
 } from '@plurid/plurid-icons-react';
 
 import IconSet from '../../components/IconSet';
@@ -20,16 +54,152 @@ import {
 
 const icons: IconListItem[] = [
     {
-        Element: PluridIconAccessor,
-        title: 'accessor',
+        Element: PluridIconClass,
+        title: 'class',
     },
     {
-        Element: PluridIconClassWithType,
-        title: 'class with type parameter',
+        Element: PluridIconClassAccessor,
+        title: 'class accessor',
+    },
+    {
+        Element: PluridIconClassConstructor,
+        title: 'class constructor',
+    },
+    {
+        Element: PluridIconClassIndexSignature,
+        title: 'class index signature',
+    },
+    {
+        Element: PluridIconClassInheritedAccessor,
+        title: 'class inherited accessor',
+    },
+    {
+        Element: PluridIconClassInheritedConstructor,
+        title: 'class inherited constructor',
+    },
+    {
+        Element: PluridIconClassInheritedMethod,
+        title: 'class inherited method',
+    },
+    {
+        Element: PluridIconClassInheritedProperty,
+        title: 'class inherited property',
+    },
+    {
+        Element: PluridIconClassMethod,
+        title: 'class method',
+    },
+    {
+        Element: PluridIconClassPrivateAccessor,
+        title: 'class private accessor',
+    },
+    {
+        Element: PluridIconClassPrivateMethod,
+        title: 'class private method',
+    },
+    {
+        Element: PluridIconClassPrivateProperty,
+        title: 'class private property',
+    },
+    {
+        Element: PluridIconClassProperty,
+        title: 'class property',
+    },
+    {
+        Element: PluridIconClassProtectedAccessor,
+        title: 'class protected accessor',
+    },
+    {
+        Element: PluridIconClassProtectedMethod,
+        title: 'class protected method',
+    },
+    {
+        Element: PluridIconClassProtectedProperty,
+        title: 'class protected property',
+    },
+    {
+        Element: PluridIconClassStaticMethod,
+        title: 'class static method',
+    },
+    {
+        Element: PluridIconClassStaticProperty,
+        title: 'class static property',
+    },
+    {
+        Element: PluridIconClassTyped,
+        title: 'class typed',
+    },
+    {
+        Element: PluridIconEnumeration,
+        title: 'enumeration',
+    },
+    {
+        Element: PluridIconEnumerationMember,
+        title: 'enumeration member',
+    },
+    {
+        Element: PluridIconEnumerationMethod,
+        title: 'enumeration method',
+    },
+    {
+        Element: PluridIconEnumerationProperty,
+        title: 'enumeration property',
     },
     {
         Element: PluridIconFunction,
         title: 'function',
+    },
+    {
+        Element: PluridIconFunctionTyped,
+        title: 'function typed',
+    },
+    {
+        Element: PluridIconIndexSignature,
+        title: 'index signature',
+    },
+    {
+        Element: PluridIconInterface,
+        title: 'interface',
+    },
+    {
+        Element: PluridIconInterfaceConstructor,
+        title: 'interface constructor',
+    },
+    {
+        Element: PluridIconInterfaceIndexSignature,
+        title: 'interface index signature',
+    },
+    {
+        Element: PluridIconInterfaceMethod,
+        title: 'interface method',
+    },
+    {
+        Element: PluridIconInterfaceProperty,
+        title: 'interface property',
+    },
+    {
+        Element: PluridIconInterfaceTyped,
+        title: 'interface typed',
+    },
+    {
+        Element: PluridIconModule,
+        title: 'module',
+    },
+    {
+        Element: PluridIconObjectLiteral,
+        title: 'object literal',
+    },
+    {
+        Element: PluridIconTypeAlias,
+        title: 'type alias',
+    },
+    {
+        Element: PluridIconTypeAliasTyped,
+        title: 'type alias typed',
+    },
+    {
+        Element: PluridIconVariable,
+        title: 'variable',
     },
 ];
 
