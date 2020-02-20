@@ -74,6 +74,9 @@ import PluridIconRotate from './plurid-specific/PluridIconRotate';
 import PluridIconScale from './plurid-specific/PluridIconScale';
 import PluridIconTranslate from './plurid-specific/PluridIconTranslate';
 
+/** programming */
+import PluridIconAccessor from './programming/PluridIconAccessor';
+
 /** sitting */
 import PluridIconBranch from './sitting/PluridIconBranch';
 import PluridIconCopyCurrentState from './sitting/PluridIconCopyCurrentState';
@@ -160,6 +163,9 @@ export {
     PluridIconRotate,
     PluridIconScale,
     PluridIconTranslate,
+
+    /** programming */
+    PluridIconAccessor,
 
     /** sitting */
     PluridIconBranch,
