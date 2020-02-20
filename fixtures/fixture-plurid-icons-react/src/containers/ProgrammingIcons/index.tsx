@@ -41,7 +41,7 @@ const PluridSpecificIcons: React.FC<PluridSpecificIconsProperties> = (properties
 
     return (
         <IconSet
-            title="plurid' specific icons"
+            title="programming icons"
         >
             {icons.map(icon => {
                 const {
