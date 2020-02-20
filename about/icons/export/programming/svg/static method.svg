@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+      }
+
+      .cls-3 {
+        fill: #8c8c8c;
+      }
+
+      .cls-4 {
+        fill: #fefefe;
+      }
+    </style>
+  </defs>
+  <title>static method</title>
+  <g id="static_method" data-name="static method">
+    <g class="cls-1">
+      <polygon class="cls-2" points="681.08 778.99 645.84 758.51 551.64 352.13 586.88 372.61 681.08 778.99"/>
+      <polygon class="cls-3" points="636.85 124.63 782.75 754.04 681.08 778.99 586.88 372.61 309.14 870.27 206.68 895.41 636.85 124.63"/>
+      <polygon class="cls-4" points="206.68 895.41 171.44 874.93 601.61 104.15 636.85 124.63 206.68 895.41"/>
+    </g>
+  </g>
+</svg>

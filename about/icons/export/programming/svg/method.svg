@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: gray;
+      }
+
+      .cls-4 {
+        fill: #dcdcdc;
+      }
+
+      .cls-5 {
+        fill: #bebebe;
+      }
+    </style>
+  </defs>
+  <title>method</title>
+  <g id="method-3" data-name="method">
+    <g class="cls-1">
+      <polygon class="cls-2" points="711.19 452.21 711.07 492.96 145.43 501.21 145.54 460.45 711.19 452.21"/>
+      <polygon class="cls-3" points="145.54 460.45 145.43 501.21 72.96 425.61 73.08 384.85 145.54 460.45"/>
+      <polygon class="cls-3" points="282.69 744.79 282.58 785.54 57.19 550.41 57.3 509.66 282.69 744.79"/>
+      <polygon class="cls-4" points="541.94 502.6 282.69 744.79 57.3 509.66 541.94 502.6"/>
+      <polygon class="cls-5" points="541.94 502.6 541.82 543.36 282.58 785.54 282.69 744.79 541.94 502.6"/>
+      <polygon class="cls-4" points="949.16 372.09 480.51 809.89 408.61 734.87 711.19 452.21 145.54 460.45 73.08 384.85 949.16 372.09"/>
+      <polygon class="cls-3" points="480.51 809.89 480.4 850.65 408.5 775.63 408.61 734.87 480.51 809.89"/>
+      <polygon class="cls-5" points="949.16 372.09 949.04 412.85 480.4 850.65 480.51 809.89 949.16 372.09"/>
+    </g>
+  </g>
+</svg>

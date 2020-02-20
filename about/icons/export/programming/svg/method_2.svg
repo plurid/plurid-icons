@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #8c8c8c;
+      }
+
+      .cls-3 {
+        fill: #fefefe;
+      }
+
+      .cls-4 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <title>method_2</title>
+  <g id="method">
+    <g class="cls-1">
+      <polygon class="cls-2" points="559.51 501.26 640.23 849.44 321.55 927.65 559.51 501.26"/>
+      <polygon class="cls-3" points="321.55 927.65 286.31 907.17 524.28 480.78 559.51 501.26 321.55 927.65"/>
+      <polygon class="cls-4" points="695.01 734.59 659.77 714.11 565.57 307.73 600.81 328.21 695.01 734.59"/>
+      <polygon class="cls-2" points="650.78 80.23 796.68 709.65 695.01 734.59 600.81 328.21 323.07 825.87 220.61 851.02 650.78 80.23"/>
+      <polygon class="cls-3" points="220.61 851.02 185.37 830.54 615.54 59.75 650.78 80.23 220.61 851.02"/>
+    </g>
+  </g>
+</svg>
