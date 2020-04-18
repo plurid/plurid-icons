@@ -33,6 +33,7 @@ import PluridIconObliterate from './general/PluridIconObliterate';
 import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
+import PluridIconQRCode from './general/PluridIconQRCode';
 import PluridIconSave from './general/PluridIconSave';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconShare from './general/PluridIconShare';
@@ -159,6 +160,7 @@ export {
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
+    PluridIconQRCode,
     PluridIconSave,
     PluridIconSettings,
     PluridIconShare,
