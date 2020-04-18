@@ -39,6 +39,7 @@ import {
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
+    PluridIconQRCode,
     PluridIconSave,
     PluridIconSettings,
     PluridIconShare,
@@ -198,6 +199,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconPolicies,
         title: 'policies',
+    },
+    {
+        Element: PluridIconQRCode,
+        title: 'qr code',
     },
     {
         Element: PluridIconSave,
