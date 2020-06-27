@@ -48,7 +48,7 @@ const handleSize = (
         case PLURID_ICON_SIZES.normal:
             return PLURID_ICON_SIZES_VALUES.normal;
         case PLURID_ICON_SIZES.large:
-            PLURID_ICON_SIZES_VALUES.large;
+            return PLURID_ICON_SIZES_VALUES.large;
         default:
             return PLURID_ICON_SIZES_VALUES.normal;
     }
