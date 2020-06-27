@@ -30,24 +30,53 @@ import {
 
 
 
-const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
-    const hoverInTimeout = useRef<null | NodeJS.Timeout>(null);
-    const hoverOutTimeout = useRef<null | NodeJS.Timeout>(null);
 
+const handleSize = (
+    size: number | 'small' | 'normal' | 'large' | undefined,
+) => {
+    if (!size) {
+        return PLURID_ICON_SIZES_VALUES.normal;
+    }
+
+    if (typeof size === 'number') {
+        return size;
+    }
+
+    switch (size) {
+        case PLURID_ICON_SIZES.small:
+            return PLURID_ICON_SIZES_VALUES.small;
+        case PLURID_ICON_SIZES.normal:
+            return PLURID_ICON_SIZES_VALUES.normal;
+        case PLURID_ICON_SIZES.large:
+            PLURID_ICON_SIZES_VALUES.large;
+        default:
+            return PLURID_ICON_SIZES_VALUES.normal;
+    }
+}
+
+
+const PluridIcon: React.FC<PluridIconProperties> = (
+    properties,
+) => {
+    /** properties */
     const {
+        /** required */
+        children,
+
+        /** optional */
         size,
         title,
+        atClick,
+        inactive,
         titleAppearTime,
         titleDisappearTime,
-        inactive,
+        theme,
         style,
         className,
-        theme,
-        atClick,
-
-        children,
     } = properties;
 
+
+    /** compute */
     const activeTheme = theme || plurid;
     const activeTitleAppearTime = typeof titleAppearTime === 'number'
         ? titleAppearTime
@@ -55,37 +84,21 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
     const activeTitleDisappearTime = typeof titleDisappearTime === 'number'
         ? titleDisappearTime
         : DEFAULT_TITLE_DISAPPEAR_TIME;
+    const imageSize = handleSize(size);
 
-    const [imageSize, setImageSize] = useState(PLURID_ICON_SIZES_VALUES.normal);
 
+    /** state */
     const [mouseOver, setMouseOver] = useState(false);
     const [showTitle, setShowTitle] = useState(false);
 
-    useEffect(() => {
-        if (size) {
-            if (typeof size === 'number') {
-                setImageSize(size);
-                return;
-            }
 
-            switch (size) {
-                case PLURID_ICON_SIZES.small:
-                    setImageSize(PLURID_ICON_SIZES_VALUES.small);
-                    break;
-                case PLURID_ICON_SIZES.normal:
-                    setImageSize(PLURID_ICON_SIZES_VALUES.normal);
-                    break;
-                case PLURID_ICON_SIZES.large:
-                    setImageSize(PLURID_ICON_SIZES_VALUES.large);
-                    break;
-                default:
-                    setImageSize(PLURID_ICON_SIZES_VALUES.normal);
-            }
-        }
-    }, [
-        size,
-    ]);
+    /** references */
+    const hoverInTimeout = useRef<null | NodeJS.Timeout>(null);
+    const hoverOutTimeout = useRef<null | NodeJS.Timeout>(null);
 
+
+    /** effects */
+    /** Show title */
     useEffect(() => {
         if (mouseOver && hoverOutTimeout.current) {
             hoverInTimeout.current = setTimeout(
@@ -122,6 +135,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
         mouseOver,
     ]);
 
+
+    /** render */
     return (
         <StyledPluridIcon
             theme={activeTheme}
@@ -129,7 +144,9 @@ const PluridIcon: React.FC<PluridIconProperties> = (properties) => {
             onMouseLeave={() => setMouseOver(false)}
             onMouseMove={() => !mouseOver ? setMouseOver(true) : null}
             onClick={(event) => atClick ? atClick(event) : null}
-            style={{...style}}
+            style={{
+                ...style,
+            }}
             className={className}
         >
             <StyledPluridIconImage
