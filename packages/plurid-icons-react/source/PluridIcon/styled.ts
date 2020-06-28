@@ -13,27 +13,44 @@ export const StyledPluridIcon = styled.div`
 `;
 
 
-export const StyledPluridIconImage: any = styled.div`
+export interface IStyledPluridIconImage {
+    theme: Theme;
+    inactive: boolean | undefined;
+    iconSize: number;
+    opacity: number;
+}
+
+export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
     user-select: none;
 
-    cursor: ${(props: any) => {
-        if (props.inactive) {
-            return 'default';
-        }
-        return 'pointer';
-    }};
+    cursor: ${
+        ({
+            inactive,
+        }: IStyledPluridIconImage) => inactive ? 'default' : 'pointer'
+    };
+    opacity: ${
+        ({
+            opacity,
+        }: IStyledPluridIconImage) => opacity
+    };
 
     svg {
         display: block;
-        fill: ${(props: any) => {
-            return props.theme.colorPrimary;
-        }};
-        width: ${(props: any) => {
-            return props.imageSize + 'px';
-        }};
-        height: ${(props: any) => {
-            return props.imageSize + 'px';
-        }}
+        fill: ${
+            ({
+                theme,
+            }: IStyledPluridIconImage) => theme.colorPrimary
+        };
+        width: ${
+            ({
+                iconSize,
+            }: IStyledPluridIconImage) => iconSize + 'px'
+        };
+        height: ${
+            ({
+                iconSize,
+            }: IStyledPluridIconImage) => iconSize + 'px'
+        };
     }
 `;
 
@@ -41,15 +58,15 @@ export const StyledPluridIconImage: any = styled.div`
 
 export interface IStyledPluridIconTitle {
     theme: Theme;
-    imageSize: number;
+    iconSize: number;
     position: 'left' | 'center' | 'right';
 }
 
 export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
     top: ${
         ({
-            imageSize,
-        }: IStyledPluridIconTitle) => (imageSize + 10) + 'px'
+            iconSize,
+        }: IStyledPluridIconTitle) => (iconSize + 10) + 'px'
     };
     left: ${
         ({

@@ -15,6 +15,8 @@ export interface PluridIconProperties {
     style?: React.CSSProperties;
 
     /**
+     * Size of the icon.
+     *
      * `'small'` - 10px height and width.
      *
      * `'normal'` - 16px height and width.
@@ -22,8 +24,17 @@ export interface PluridIconProperties {
      * `'large'` - 24px height and width.
      *
      * `'number'` - pixel value specifying height and width.
+     *
+     * Default: `'normal'`.
      */
     size?: keyof typeof PLURID_ICON_SIZES | number;
+
+    /**
+     * Opacity of the icon.
+     *
+     * Default: `1`.
+     */
+    opacity?: number;
 
     /**
      * Plurid Theme
