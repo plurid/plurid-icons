@@ -36,6 +36,13 @@ export interface PluridIconProperties {
     title?: string;
 
     /**
+     * Align title with the icon margins or center it.
+     *
+     * Default: `'center'`.
+     */
+    titlePosition?: 'left' | 'center' | 'right';
+
+    /**
      * Time value to show title after hover event.
      *
      * Default `600`ms.
