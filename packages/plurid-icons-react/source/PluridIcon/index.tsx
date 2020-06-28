@@ -65,8 +65,9 @@ const PluridIcon: React.FC<PluridIconProperties> = (
 
         /** optional */
         size,
-        atClick,
         inactive,
+        opacity,
+        atClick,
         title,
         titlePosition,
         titleAppearTime,
@@ -86,7 +87,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (
     const activeTitleDisappearTime = typeof titleDisappearTime === 'number'
         ? titleDisappearTime
         : DEFAULT_TITLE_DISAPPEAR_TIME;
-    const imageSize = handleSize(size);
+    const iconSize = handleSize(size);
+    const activeOpacity = opacity ?? 1;
 
 
     /** state */
@@ -153,8 +155,9 @@ const PluridIcon: React.FC<PluridIconProperties> = (
         >
             <StyledPluridIconImage
                 theme={activeTheme}
-                imageSize={imageSize}
+                iconSize={iconSize}
                 inactive={inactive}
+                opacity={activeOpacity}
             >
                 {children}
             </StyledPluridIconImage>
@@ -165,7 +168,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
                 && (
                     <StyledPluridIconTitle
                         theme={activeTheme}
-                        imageSize={imageSize}
+                        iconSize={iconSize}
                         position={activeTitlePosition}
                     >
                         {title}
