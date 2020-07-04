@@ -18,6 +18,7 @@ export interface IStyledPluridIconImage {
     inactive: boolean | undefined;
     iconSize: number;
     opacity: number;
+    color: string | undefined;
 }
 
 export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
@@ -39,7 +40,14 @@ export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
         fill: ${
             ({
                 theme,
-            }: IStyledPluridIconImage) => theme.colorPrimary
+                color,
+            }: IStyledPluridIconImage) => {
+                if (color) {
+                    return color;
+                }
+
+                return theme.colorPrimary;
+            }
         };
         width: ${
             ({

@@ -67,6 +67,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
         size,
         inactive,
         opacity,
+        color,
         atClick,
         title,
         titlePosition,
@@ -158,6 +159,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
                 iconSize={iconSize}
                 inactive={inactive}
                 opacity={activeOpacity}
+                color={color}
             >
                 {children}
             </StyledPluridIconImage>
