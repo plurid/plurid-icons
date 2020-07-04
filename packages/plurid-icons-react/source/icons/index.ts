@@ -26,6 +26,7 @@ import PluridIconFrame from './general/PluridIconFrame';
 import PluridIconImagelists from './general/PluridIconImagelists';
 import PluridIconInfo from './general/PluridIconInfo';
 import PluridIconIngress from './general/PluridIconIngress';
+import PluridIconInvalid from './general/PluridIconInvalid';
 import PluridIconLink from './general/PluridIconLink';
 import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
@@ -46,6 +47,7 @@ import PluridIconToolbox from './general/PluridIconToolbox';
 import PluridIconTools from './general/PluridIconTools';
 import PluridIconUnlocked from './general/PluridIconUnlocked';
 import PluridIconUsers from './general/PluridIconUsers';
+import PluridIconValid from './general/PluridIconValid';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
 
 /** grading */
@@ -153,6 +155,7 @@ export {
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,
+    PluridIconInvalid,
     PluridIconLink,
     PluridIconLocked,
     PluridIconMore,
@@ -173,6 +176,7 @@ export {
     PluridIconTools,
     PluridIconUnlocked,
     PluridIconUsers,
+    PluridIconValid,
     PluridIconWorldSpace,
 
     /** grading */
