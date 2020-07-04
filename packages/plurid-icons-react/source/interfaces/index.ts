@@ -36,6 +36,8 @@ export interface PluridIconProperties {
      */
     opacity?: number;
 
+    color?: string;
+
     /**
      * Plurid Theme
      */
