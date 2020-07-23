@@ -31,6 +31,8 @@ import PluridIconLink from './general/PluridIconLink';
 import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
 import PluridIconObliterate from './general/PluridIconObliterate';
+import PluridIconPaintBrush from './general/PluridIconPaintBrush';
+import PluridIconPaintBucket from './general/PluridIconPaintBucket';
 import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
@@ -165,6 +167,8 @@ export {
     PluridIconLocked,
     PluridIconMore,
     PluridIconObliterate,
+    PluridIconPaintBrush,
+    PluridIconPaintBucket,
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
