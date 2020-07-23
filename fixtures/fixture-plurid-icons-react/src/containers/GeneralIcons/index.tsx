@@ -36,6 +36,8 @@ import {
     PluridIconLocked,
     PluridIconMore,
     PluridIconObliterate,
+    PluridIconPaintBrush,
+    PluridIconPaintBucket,
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
@@ -187,6 +189,14 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconObliterate,
         title: 'obliterate',
+    },
+    {
+        Element: PluridIconPaintBrush,
+        title: 'paint brush',
+    },
+    {
+        Element: PluridIconPaintBucket,
+        title: 'paint bucket',
     },
     {
         Element: PluridIconPalette,
