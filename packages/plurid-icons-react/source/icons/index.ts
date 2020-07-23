@@ -116,6 +116,11 @@ import PluridIconTypeAlias from './programming/PluridIconTypeAlias';
 import PluridIconTypeAliasTyped from './programming/PluridIconTypeAliasTyped';
 import PluridIconVariable from './programming/PluridIconVariable';
 
+/** shape */
+import PluridIconCircle from './shapes/PluridIconCircle';
+import PluridIconRectangle from './shapes/PluridIconRectangle';
+import PluridIconSquare from './shapes/PluridIconSquare';
+
 /** sitting */
 import PluridIconBranch from './sitting/PluridIconBranch';
 import PluridIconCopyCurrentState from './sitting/PluridIconCopyCurrentState';
@@ -245,6 +250,11 @@ export {
     PluridIconTypeAliasTyped,
     PluridIconVariable,
 
+    /** shapes */
+    PluridIconCircle,
+    PluridIconRectangle,
+    PluridIconSquare,
+
     /** sitting */
     PluridIconBranch,
     PluridIconCopyCurrentState,
@@ -252,4 +262,4 @@ export {
     PluridIconNewStateline,
     PluridIconSittings,
     PluridIconStateShareImage,
-}
+};

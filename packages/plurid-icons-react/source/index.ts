@@ -18,4 +18,4 @@ export {
     PLURID_ICON_SIZES,
 
     PluridIconProperties,
-}
+};
