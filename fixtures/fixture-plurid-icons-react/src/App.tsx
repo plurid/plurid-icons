@@ -11,6 +11,7 @@ import GradingIcons from './containers/GradingIcons';
 import MediaIcons from './containers/MediaIcons';
 import PluridSpecificIcons from './containers/PluridSpecificIcons';
 import ProgrammingIcons from './containers/ProgrammingIcons';
+import ShapesIcons from './containers/ShapesIcons';
 import SittingIcons from './containers/SittingIcons';
 
 import githubLogo from './assets/icons/github-logo.png';
@@ -110,6 +111,13 @@ const App: React.FC = () => {
                 />
 
                 <ProgrammingIcons
+                    theme={theme}
+                    iconSize={iconSize}
+                    titleAppearTime={titleAppearTime}
+                    titleDisappearTime={titleDisappearTime}
+                />
+
+                <ShapesIcons
                     theme={theme}
                     iconSize={iconSize}
                     titleAppearTime={titleAppearTime}
