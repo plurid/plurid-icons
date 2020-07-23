@@ -37,9 +37,9 @@
         "spec": "jest",
         "lint": "eslint ./source --ext .ts,.tsx",
         "start": "yarn clean && rollup -c -w --environment MODE_ENV:local",
-        "build.dev": "yarn clean && rollup -c --environment MODE_ENV:local",
-        "build.prod": "yarn clean && rollup -c --environment MODE_ENV:production",
-        "build": "yarn clean && yarn lint && yarn spec && yarn build.prod",
+        "build.development": "yarn clean && rollup -c --environment MODE_ENV:local",
+        "build.production": "yarn clean && rollup -c --environment MODE_ENV:production",
+        "build": "yarn clean && yarn lint && yarn spec && yarn build.production",
         "prepublishOnly": "yarn build"
     },
     "peerDependencies": {
