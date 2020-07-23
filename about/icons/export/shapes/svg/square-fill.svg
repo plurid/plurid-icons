@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>square</title>
+  <g id="square">
+    <rect class="cls-1" x="70" y="70" width="860" height="860"/>
+  </g>
+</svg>

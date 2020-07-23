@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>square</title>
+  <g id="square">
+    <path class="cls-1" d="M850,150V850H150V150H850m80-80H70V930H930V70Z"/>
+  </g>
+</svg>

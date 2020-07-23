@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>rectangle</title>
+  <g id="rectangle">
+    <path class="cls-1" d="M654,150V850H346V150H654m80-80H266V930H734V70Z"/>
+  </g>
+</svg>
