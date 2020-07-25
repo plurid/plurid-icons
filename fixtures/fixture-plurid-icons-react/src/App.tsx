@@ -1,6 +1,7 @@
 import React, {
     useState,
 } from 'react';
+
 import './App.css';
 
 import ThemePicker from './components/ThemePicker';
@@ -13,11 +14,26 @@ import PluridSpecificIcons from './containers/PluridSpecificIcons';
 import ProgrammingIcons from './containers/ProgrammingIcons';
 import ShapesIcons from './containers/ShapesIcons';
 import SittingIcons from './containers/SittingIcons';
+import TextIcons from './containers/TextIcons';
 
 import githubLogo from './assets/icons/github-logo.png';
 
-import themes, { Theme } from '@plurid/plurid-themes';
+import themes, {
+    Theme,
+} from '@plurid/plurid-themes';
 
+
+
+const iconsSets = [
+    GeneralIcons,
+    GradingIcons,
+    MediaIcons,
+    PluridSpecificIcons,
+    ProgrammingIcons,
+    ShapesIcons,
+    SittingIcons,
+    TextIcons,
+];
 
 
 const App: React.FC = () => {
@@ -80,56 +96,18 @@ const App: React.FC = () => {
                 </a>
             </h1>
 
-            <div
-            >
-                <GeneralIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <GradingIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <MediaIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <PluridSpecificIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <ProgrammingIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <ShapesIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
-
-                <SittingIcons
-                    theme={theme}
-                    iconSize={iconSize}
-                    titleAppearTime={titleAppearTime}
-                    titleDisappearTime={titleDisappearTime}
-                />
+            <div>
+                {iconsSets.map(IconSet => {
+                    return (
+                        <IconSet
+                            key={Math.random()}
+                            theme={theme}
+                            iconSize={iconSize}
+                            titleAppearTime={titleAppearTime}
+                            titleDisappearTime={titleDisappearTime}
+                        />
+                    );
+                })}
             </div>
         </div>
     );
