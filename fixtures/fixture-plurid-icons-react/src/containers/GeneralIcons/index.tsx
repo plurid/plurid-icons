@@ -9,6 +9,7 @@ import {
     PluridIconAddAlbum,
     PluridIconAddImage,
     PluridIconAdminSpace,
+    PluridIconAnnotation,
     PluridIconApps,
     PluridIconArrowDown,
     PluridIconArrowLeft,
@@ -21,6 +22,8 @@ import {
     PluridIconCopy,
     PluridIconDeauthored,
     PluridIconDelete,
+    PluridIconDownload,
+    PluridIconDuplicate,
     PluridIconEdit,
     PluridIconEmail,
     PluridIconEnter,
@@ -28,20 +31,30 @@ import {
     PluridIconExpandPlus,
     PluridIconExplore,
     PluridIconExternalLink,
+    PluridIconExtract,
     PluridIconFrame,
+    PluridIconFullscreen,
+    PluridIconGet,
+    PluridIconGoToLink,
+    PluridIconGrab,
+    PluridIconHighlight,
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,
+    PluridIconInvalid,
     PluridIconLink,
     PluridIconLocked,
     PluridIconMore,
+    PluridIconNotViewable,
     PluridIconObliterate,
+    PluridIconOpacity,
     PluridIconPaintBrush,
     PluridIconPaintBucket,
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
     PluridIconQRCode,
+    PluridIconReset,
     PluridIconSave,
     PluridIconSettings,
     PluridIconShare,
@@ -50,10 +63,15 @@ import {
     PluridIconStatistics,
     PluridIconSubscription,
     PluridIconSystem,
+    PluridIconTag,
     PluridIconToolbox,
     PluridIconTools,
+    PluridIconTransview,
     PluridIconUnlocked,
+    PluridIconUpload,
     PluridIconUsers,
+    PluridIconValid,
+    PluridIconViewable,
     PluridIconWorldSpace,
 } from '@plurid/plurid-icons-react';
 
@@ -81,6 +99,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconAdminSpace,
         title: 'admin space',
+    },
+    {
+        Element: PluridIconAnnotation,
+        title: 'annotation',
     },
     {
         Element: PluridIconApps,
@@ -131,6 +153,14 @@ const icons: IconListItem[] = [
         title: 'delete',
     },
     {
+        Element: PluridIconDownload,
+        title: 'download',
+    },
+    {
+        Element: PluridIconDuplicate,
+        title: 'duplicate',
+    },
+    {
         Element: PluridIconEdit,
         title: 'edit',
     },
@@ -159,8 +189,32 @@ const icons: IconListItem[] = [
         title: 'external link',
     },
     {
+        Element: PluridIconExtract,
+        title: 'extract',
+    },
+    {
         Element: PluridIconFrame,
         title: 'frame',
+    },
+    {
+        Element: PluridIconFullscreen,
+        title: 'fullscreen',
+    },
+    {
+        Element: PluridIconGet,
+        title: 'get',
+    },
+    {
+        Element: PluridIconGoToLink,
+        title: 'go to link',
+    },
+    {
+        Element: PluridIconGrab,
+        title: 'grab',
+    },
+    {
+        Element: PluridIconHighlight,
+        title: 'highlight',
     },
     {
         Element: PluridIconImagelists,
@@ -175,6 +229,10 @@ const icons: IconListItem[] = [
         title: 'ingress',
     },
     {
+        Element: PluridIconInvalid,
+        title: 'invalid',
+    },
+    {
         Element: PluridIconLink,
         title: 'link',
     },
@@ -187,8 +245,16 @@ const icons: IconListItem[] = [
         title: 'more',
     },
     {
+        Element: PluridIconNotViewable,
+        title: 'not viewable',
+    },
+    {
         Element: PluridIconObliterate,
         title: 'obliterate',
+    },
+    {
+        Element: PluridIconOpacity,
+        title: 'opacity',
     },
     {
         Element: PluridIconPaintBrush,
@@ -213,6 +279,10 @@ const icons: IconListItem[] = [
     {
         Element: PluridIconQRCode,
         title: 'qr code',
+    },
+    {
+        Element: PluridIconReset,
+        title: 'reset',
     },
     {
         Element: PluridIconSave,
@@ -247,6 +317,10 @@ const icons: IconListItem[] = [
         title: 'system',
     },
     {
+        Element: PluridIconTag,
+        title: 'tag',
+    },
+    {
         Element: PluridIconToolbox,
         title: 'toolbox',
     },
@@ -255,12 +329,28 @@ const icons: IconListItem[] = [
         title: 'tools',
     },
     {
+        Element: PluridIconTransview,
+        title: 'transview',
+    },
+    {
         Element: PluridIconUnlocked,
         title: 'unlocked',
     },
     {
+        Element: PluridIconUpload,
+        title: 'upload',
+    },
+    {
         Element: PluridIconUsers,
         title: 'users',
+    },
+    {
+        Element: PluridIconValid,
+        title: 'valid',
+    },
+    {
+        Element: PluridIconViewable,
+        title: 'viewable',
     },
     {
         Element: PluridIconWorldSpace,
