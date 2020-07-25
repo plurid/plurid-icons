@@ -15,6 +15,7 @@ import PluridIconContents from './general/PluridIconContents';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDeauthored from './general/PluridIconDeauthored';
 import PluridIconDelete from './general/PluridIconDelete';
+import PluridIconDuplicate from './general/PluridIconDuplicate';
 import PluridIconEdit from './general/PluridIconEdit';
 import PluridIconEmail from './general/PluridIconEmail';
 import PluridIconEnter from './general/PluridIconEnter';
@@ -23,6 +24,8 @@ import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
 import PluridIconExternalLink from './general/PluridIconExternalLink';
 import PluridIconFrame from './general/PluridIconFrame';
+import PluridIconGoToLink from './general/PluridIconGoToLink';
+import PluridIconGrab from './general/PluridIconGrab';
 import PluridIconImagelists from './general/PluridIconImagelists';
 import PluridIconInfo from './general/PluridIconInfo';
 import PluridIconIngress from './general/PluridIconIngress';
@@ -30,6 +33,7 @@ import PluridIconInvalid from './general/PluridIconInvalid';
 import PluridIconLink from './general/PluridIconLink';
 import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
+import PluridIconNotViewable from './general/PluridIconNotViewable';
 import PluridIconObliterate from './general/PluridIconObliterate';
 import PluridIconPaintBrush from './general/PluridIconPaintBrush';
 import PluridIconPaintBucket from './general/PluridIconPaintBucket';
@@ -50,6 +54,7 @@ import PluridIconTools from './general/PluridIconTools';
 import PluridIconUnlocked from './general/PluridIconUnlocked';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconValid from './general/PluridIconValid';
+import PluridIconViewable from './general/PluridIconViewable';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
 
 /** grading */
@@ -131,6 +136,14 @@ import PluridIconNewStateline from './sitting/PluridIconNewStateline';
 import PluridIconSittings from './sitting/PluridIconSittings';
 import PluridIconStateShareImage from './sitting/PluridIconStateShareImage';
 
+/** text */
+import PluridIconBold from './text/PluridIconBold';
+import PluridIconFontSize from './text/PluridIconFontSize';
+import PluridIconItalic from './text/PluridIconItalic';
+import PluridIconLetterSpacing from './text/PluridIconLetterSpacing';
+import PluridIconText from './text/PluridIconText';
+import PluridIconWordSpacing from './text/PluridIconWordSpacing';
+
 
 
 export {
@@ -151,6 +164,7 @@ export {
     PluridIconCopy,
     PluridIconDeauthored,
     PluridIconDelete,
+    PluridIconDuplicate,
     PluridIconEdit,
     PluridIconEmail,
     PluridIconEnter,
@@ -159,6 +173,8 @@ export {
     PluridIconExplore,
     PluridIconExternalLink,
     PluridIconFrame,
+    PluridIconGoToLink,
+    PluridIconGrab,
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,
@@ -166,6 +182,7 @@ export {
     PluridIconLink,
     PluridIconLocked,
     PluridIconMore,
+    PluridIconNotViewable,
     PluridIconObliterate,
     PluridIconPaintBrush,
     PluridIconPaintBucket,
@@ -186,6 +203,7 @@ export {
     PluridIconUnlocked,
     PluridIconUsers,
     PluridIconValid,
+    PluridIconViewable,
     PluridIconWorldSpace,
 
     /** grading */
@@ -266,4 +284,12 @@ export {
     PluridIconNewStateline,
     PluridIconSittings,
     PluridIconStateShareImage,
+
+    /** text */
+    PluridIconBold,
+    PluridIconFontSize,
+    PluridIconItalic,
+    PluridIconLetterSpacing,
+    PluridIconText,
+    PluridIconWordSpacing,
 };
