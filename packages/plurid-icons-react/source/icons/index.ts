@@ -3,6 +3,7 @@ import PluridIconAdd from './general/PluridIconAdd';
 import PluridIconAddAlbum from './general/PluridIconAddAlbum';
 import PluridIconAddImage from './general/PluridIconAddImage';
 import PluridIconAdminSpace from './general/PluridIconAdminSpace';
+import PluridIconAnnotation from './general/PluridIconAnnotation';
 import PluridIconApps from './general/PluridIconApps';
 import PluridIconArrowDown from './general/PluridIconArrowDown';
 import PluridIconArrowLeft from './general/PluridIconArrowLeft';
@@ -15,6 +16,7 @@ import PluridIconContents from './general/PluridIconContents';
 import PluridIconCopy from './general/PluridIconCopy';
 import PluridIconDeauthored from './general/PluridIconDeauthored';
 import PluridIconDelete from './general/PluridIconDelete';
+import PluridIconDownload from './general/PluridIconDownload';
 import PluridIconDuplicate from './general/PluridIconDuplicate';
 import PluridIconEdit from './general/PluridIconEdit';
 import PluridIconEmail from './general/PluridIconEmail';
@@ -23,9 +25,13 @@ import PluridIconExpandMinus from './general/PluridIconExpandMinus';
 import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
 import PluridIconExternalLink from './general/PluridIconExternalLink';
+import PluridIconExtract from './general/PluridIconExtract';
 import PluridIconFrame from './general/PluridIconFrame';
+import PluridIconFullscreen from './general/PluridIconFullscreen';
+import PluridIconGet from './general/PluridIconGet';
 import PluridIconGoToLink from './general/PluridIconGoToLink';
 import PluridIconGrab from './general/PluridIconGrab';
+import PluridIconHighlight from './general/PluridIconHighlight';
 import PluridIconImagelists from './general/PluridIconImagelists';
 import PluridIconInfo from './general/PluridIconInfo';
 import PluridIconIngress from './general/PluridIconIngress';
@@ -35,12 +41,14 @@ import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
 import PluridIconNotViewable from './general/PluridIconNotViewable';
 import PluridIconObliterate from './general/PluridIconObliterate';
+import PluridIconOpacity from './general/PluridIconOpacity';
 import PluridIconPaintBrush from './general/PluridIconPaintBrush';
 import PluridIconPaintBucket from './general/PluridIconPaintBucket';
 import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
 import PluridIconQRCode from './general/PluridIconQRCode';
+import PluridIconReset from './general/PluridIconReset';
 import PluridIconSave from './general/PluridIconSave';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconShare from './general/PluridIconShare';
@@ -49,9 +57,12 @@ import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
 import PluridIconSubscription from './general/PluridIconSubscription';
 import PluridIconSystem from './general/PluridIconSystem';
+import PluridIconTag from './general/PluridIconTag';
 import PluridIconToolbox from './general/PluridIconToolbox';
 import PluridIconTools from './general/PluridIconTools';
+import PluridIconTransview from './general/PluridIconTransview';
 import PluridIconUnlocked from './general/PluridIconUnlocked';
+import PluridIconUpload from './general/PluridIconUpload';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconValid from './general/PluridIconValid';
 import PluridIconViewable from './general/PluridIconViewable';
@@ -152,6 +163,7 @@ export {
     PluridIconAddAlbum,
     PluridIconAddImage,
     PluridIconAdminSpace,
+    PluridIconAnnotation,
     PluridIconApps,
     PluridIconArrowDown,
     PluridIconArrowLeft,
@@ -164,6 +176,7 @@ export {
     PluridIconCopy,
     PluridIconDeauthored,
     PluridIconDelete,
+    PluridIconDownload,
     PluridIconDuplicate,
     PluridIconEdit,
     PluridIconEmail,
@@ -172,9 +185,13 @@ export {
     PluridIconExpandPlus,
     PluridIconExplore,
     PluridIconExternalLink,
+    PluridIconExtract,
     PluridIconFrame,
+    PluridIconFullscreen,
+    PluridIconGet,
     PluridIconGoToLink,
     PluridIconGrab,
+    PluridIconHighlight,
     PluridIconImagelists,
     PluridIconInfo,
     PluridIconIngress,
@@ -184,12 +201,14 @@ export {
     PluridIconMore,
     PluridIconNotViewable,
     PluridIconObliterate,
+    PluridIconOpacity,
     PluridIconPaintBrush,
     PluridIconPaintBucket,
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
     PluridIconQRCode,
+    PluridIconReset,
     PluridIconSave,
     PluridIconSettings,
     PluridIconShare,
@@ -198,9 +217,12 @@ export {
     PluridIconStatistics,
     PluridIconSubscription,
     PluridIconSystem,
+    PluridIconTag,
     PluridIconToolbox,
     PluridIconTools,
+    PluridIconTransview,
     PluridIconUnlocked,
+    PluridIconUpload,
     PluridIconUsers,
     PluridIconValid,
     PluridIconViewable,
