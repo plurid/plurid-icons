@@ -48,6 +48,7 @@ import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
 import PluridIconQRCode from './general/PluridIconQRCode';
+import PluridIconRepository from './general/PluridIconRepository';
 import PluridIconReset from './general/PluridIconReset';
 import PluridIconSave from './general/PluridIconSave';
 import PluridIconSettings from './general/PluridIconSettings';
@@ -66,6 +67,7 @@ import PluridIconUpload from './general/PluridIconUpload';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconValid from './general/PluridIconValid';
 import PluridIconViewable from './general/PluridIconViewable';
+import PluridIconWebhook from './general/PluridIconWebhook';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
 
 /** grading */
@@ -208,6 +210,7 @@ export {
     PluridIconPersonalSpace,
     PluridIconPolicies,
     PluridIconQRCode,
+    PluridIconRepository,
     PluridIconReset,
     PluridIconSave,
     PluridIconSettings,
@@ -226,6 +229,7 @@ export {
     PluridIconUsers,
     PluridIconValid,
     PluridIconViewable,
+    PluridIconWebhook,
     PluridIconWorldSpace,
 
     /** grading */
