@@ -48,17 +48,21 @@ import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
 import PluridIconQRCode from './general/PluridIconQRCode';
+import PluridIconQueue from './general/PluridIconQueue';
 import PluridIconRepository from './general/PluridIconRepository';
 import PluridIconReset from './general/PluridIconReset';
+import PluridIconRunning from './general/PluridIconRunning';
 import PluridIconSave from './general/PluridIconSave';
 import PluridIconSettings from './general/PluridIconSettings';
 import PluridIconShare from './general/PluridIconShare';
 import PluridIconSpace from './general/PluridIconSpace';
 import PluridIconSpeak from './general/PluridIconSpeak';
 import PluridIconStatistics from './general/PluridIconStatistics';
+import PluridIconStopped from './general/PluridIconStopped';
 import PluridIconSubscription from './general/PluridIconSubscription';
 import PluridIconSystem from './general/PluridIconSystem';
 import PluridIconTag from './general/PluridIconTag';
+import PluridIconTimeout from './general/PluridIconTimeout';
 import PluridIconToolbox from './general/PluridIconToolbox';
 import PluridIconTools from './general/PluridIconTools';
 import PluridIconTransview from './general/PluridIconTransview';
@@ -67,6 +71,7 @@ import PluridIconUpload from './general/PluridIconUpload';
 import PluridIconUsers from './general/PluridIconUsers';
 import PluridIconValid from './general/PluridIconValid';
 import PluridIconViewable from './general/PluridIconViewable';
+import PluridIconWarning from './general/PluridIconWarning';
 import PluridIconWebhook from './general/PluridIconWebhook';
 import PluridIconWorldSpace from './general/PluridIconWorldSpace';
 
@@ -210,17 +215,21 @@ export {
     PluridIconPersonalSpace,
     PluridIconPolicies,
     PluridIconQRCode,
+    PluridIconQueue,
     PluridIconRepository,
     PluridIconReset,
+    PluridIconRunning,
     PluridIconSave,
     PluridIconSettings,
     PluridIconShare,
     PluridIconSpace,
     PluridIconSpeak,
     PluridIconStatistics,
+    PluridIconStopped,
     PluridIconSubscription,
     PluridIconSystem,
     PluridIconTag,
+    PluridIconTimeout,
     PluridIconToolbox,
     PluridIconTools,
     PluridIconTransview,
@@ -229,6 +238,7 @@ export {
     PluridIconUsers,
     PluridIconValid,
     PluridIconViewable,
+    PluridIconWarning,
     PluridIconWebhook,
     PluridIconWorldSpace,
 
