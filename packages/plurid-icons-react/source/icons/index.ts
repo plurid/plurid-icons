@@ -47,6 +47,7 @@ import PluridIconPaintBucket from './general/PluridIconPaintBucket';
 import PluridIconPalette from './general/PluridIconPalette';
 import PluridIconPersonalSpace from './general/PluridIconPersonalSpace';
 import PluridIconPolicies from './general/PluridIconPolicies';
+import PluridIconPrivateKey from './general/PluridIconPrivateKey';
 import PluridIconQRCode from './general/PluridIconQRCode';
 import PluridIconQueue from './general/PluridIconQueue';
 import PluridIconRepository from './general/PluridIconRepository';
@@ -214,6 +215,7 @@ export {
     PluridIconPalette,
     PluridIconPersonalSpace,
     PluridIconPolicies,
+    PluridIconPrivateKey,
     PluridIconQRCode,
     PluridIconQueue,
     PluridIconRepository,
