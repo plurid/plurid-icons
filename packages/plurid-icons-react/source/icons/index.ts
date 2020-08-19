@@ -21,6 +21,7 @@ import PluridIconDuplicate from './general/PluridIconDuplicate';
 import PluridIconEdit from './general/PluridIconEdit';
 import PluridIconEmail from './general/PluridIconEmail';
 import PluridIconEnter from './general/PluridIconEnter';
+import PluridIconExit from './general/PluridIconExit';
 import PluridIconExpandMinus from './general/PluridIconExpandMinus';
 import PluridIconExpandPlus from './general/PluridIconExpandPlus';
 import PluridIconExplore from './general/PluridIconExplore';
@@ -189,6 +190,7 @@ export {
     PluridIconEdit,
     PluridIconEmail,
     PluridIconEnter,
+    PluridIconExit,
     PluridIconExpandMinus,
     PluridIconExpandPlus,
     PluridIconExplore,
