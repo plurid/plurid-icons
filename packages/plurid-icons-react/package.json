@@ -18,6 +18,7 @@
         "url": "https://github.com/plurid/plurid-icons/issues"
     },
     "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
         "access": "public"
     },
     "homepage": "https://github.com/plurid/plurid-icons/blob/master/packages/plurid-icons-react/README.md",
