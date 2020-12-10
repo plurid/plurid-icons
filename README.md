@@ -28,6 +28,7 @@
 
 + [About](#about)
 + [Demo](#demo)
++ [Packages](#packages)
 + [Codeophon](#codeophon)
 
 
@@ -39,6 +40,18 @@ The `plurid-icons` are meant to be used across all the plurid' applications, but
 
 
 ## [Demo](https://meta.plurid.com/icons)
+
+
+
+## Packages
+
+<a target="_blank" href="https://www.npmjs.com/package/@plurid/plurid-icons-react">
+    <img src="https://img.shields.io/npm/v/@plurid/plurid-icons-react.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+</a>
+
+[@plurid/plurid-icons-react][plurid-icons-react] • implementation for `React`
+
+[plurid-icons-react]: https://github.com/plurid/plurid-icons/tree/master/packages/plurid-icons-react
 
 
 
