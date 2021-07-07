@@ -98,8 +98,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (
 
 
     /** references */
-    const hoverInTimeout = useRef<null | number>(null);
-    const hoverOutTimeout = useRef<null | number>(null);
+    const hoverInTimeout = useRef<null | NodeJS.Timeout>(null);
+    const hoverOutTimeout = useRef<null | NodeJS.Timeout>(null);
 
 
     /** effects */
