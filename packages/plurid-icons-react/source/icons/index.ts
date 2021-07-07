@@ -9,7 +9,9 @@ import PluridIconArrowDown from './general/PluridIconArrowDown';
 import PluridIconArrowLeft from './general/PluridIconArrowLeft';
 import PluridIconArrowRight from './general/PluridIconArrowRight';
 import PluridIconArrowUp from './general/PluridIconArrowUp';
+import PluridIconBlocks from './general/PluridIconBlocks';
 import PluridIconBrainCircuits from './general/PluridIconBrainCircuits';
+import PluridIconColumns from './general/PluridIconColumns';
 import PluridIconCommand from './general/PluridIconCommand';
 import PluridIconContact from './general/PluridIconContact';
 import PluridIconContents from './general/PluridIconContents';
@@ -29,6 +31,7 @@ import PluridIconExternalLink from './general/PluridIconExternalLink';
 import PluridIconExtract from './general/PluridIconExtract';
 import PluridIconFrame from './general/PluridIconFrame';
 import PluridIconFullscreen from './general/PluridIconFullscreen';
+import PluridIconGallery from './general/PluridIconGallery';
 import PluridIconGet from './general/PluridIconGet';
 import PluridIconGoToLink from './general/PluridIconGoToLink';
 import PluridIconGrab from './general/PluridIconGrab';
@@ -38,6 +41,7 @@ import PluridIconInfo from './general/PluridIconInfo';
 import PluridIconIngress from './general/PluridIconIngress';
 import PluridIconInvalid from './general/PluridIconInvalid';
 import PluridIconLink from './general/PluridIconLink';
+import PluridIconList from './general/PluridIconList';
 import PluridIconLocked from './general/PluridIconLocked';
 import PluridIconMore from './general/PluridIconMore';
 import PluridIconNotViewable from './general/PluridIconNotViewable';
@@ -99,6 +103,7 @@ import PluridIconFirstPerson from './plurid-specific/PluridIconFirstPerson';
 import PluridIconGlobal from './plurid-specific/PluridIconGlobal';
 import PluridIconLayout from './plurid-specific/PluridIconLayout';
 import PluridIconOrder from './plurid-specific/PluridIconOrder';
+import PluridIconPlurid from './plurid-specific/PluridIconPlurid';
 import PluridIconRevert from './plurid-specific/PluridIconRevert';
 import PluridIconRotate from './plurid-specific/PluridIconRotate';
 import PluridIconScale from './plurid-specific/PluridIconScale';
@@ -178,7 +183,9 @@ export {
     PluridIconArrowLeft,
     PluridIconArrowRight,
     PluridIconArrowUp,
+    PluridIconBlocks,
     PluridIconBrainCircuits,
+    PluridIconColumns,
     PluridIconCommand,
     PluridIconContact,
     PluridIconContents,
@@ -198,6 +205,7 @@ export {
     PluridIconExtract,
     PluridIconFrame,
     PluridIconFullscreen,
+    PluridIconGallery,
     PluridIconGet,
     PluridIconGoToLink,
     PluridIconGrab,
@@ -207,6 +215,7 @@ export {
     PluridIconIngress,
     PluridIconInvalid,
     PluridIconLink,
+    PluridIconList,
     PluridIconLocked,
     PluridIconMore,
     PluridIconNotViewable,
@@ -268,6 +277,7 @@ export {
     PluridIconGlobal,
     PluridIconLayout,
     PluridIconOrder,
+    PluridIconPlurid,
     PluridIconRevert,
     PluridIconRotate,
     PluridIconScale,
