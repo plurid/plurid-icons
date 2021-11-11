@@ -79,7 +79,7 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
         }: IStyledPluridIconTitle) => {
             switch (location) {
                 case 'above':
-                    return (-1 * (iconSize + 24)) + 'px';
+                    return (-1 * (iconSize + 22)) + 'px';
                 case 'left':
                     return (-1 * (iconSize / 2 - 1)) + 'px';
                 case 'right':
