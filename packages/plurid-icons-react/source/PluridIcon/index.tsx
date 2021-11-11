@@ -71,6 +71,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
         atClick,
         title,
         titlePosition,
+        titleLocation,
         titleAppearTime,
         titleDisappearTime,
         theme,
@@ -82,6 +83,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
     /** compute */
     const activeTheme = theme || plurid;
     const activeTitlePosition = titlePosition || 'center';
+    const activeTitleLocation = titleLocation || 'under';
     const activeTitleAppearTime = typeof titleAppearTime === 'number'
         ? titleAppearTime
         : DEFAULT_TITLE_APPEAR_TIME;
@@ -172,6 +174,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
                         theme={activeTheme}
                         iconSize={iconSize}
                         position={activeTitlePosition}
+                        location={activeTitleLocation}
                     >
                         {title}
                     </StyledPluridIconTitle>

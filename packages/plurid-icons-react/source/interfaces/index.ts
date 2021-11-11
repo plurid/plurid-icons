@@ -56,6 +56,13 @@ export interface PluridIconProperties {
     titlePosition?: 'left' | 'center' | 'right';
 
     /**
+     * Location of the `title`.
+     *
+     * Default: `'under'`.
+     */
+    titleLocation?: 'under' | 'above' | 'left' | 'right';
+
+    /**
      * Time value to show title after hover event.
      *
      * Default `600`ms.

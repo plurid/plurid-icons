@@ -68,13 +68,27 @@ export interface IStyledPluridIconTitle {
     theme: Theme;
     iconSize: number;
     position: 'left' | 'center' | 'right';
+    location: 'under' | 'above' | 'left' | 'right';
 }
 
 export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
     top: ${
         ({
             iconSize,
-        }: IStyledPluridIconTitle) => (iconSize + 10) + 'px'
+            location,
+        }: IStyledPluridIconTitle) => {
+            switch (location) {
+                case 'above':
+                    return -iconSize + 'px';
+                case 'left':
+                    return iconSize + 'px';
+                case 'right':
+                    return iconSize + 'px';
+                case 'under':
+                default:
+                    return (iconSize + 10) + 'px';
+            }
+        }
     };
     left: ${
         ({
