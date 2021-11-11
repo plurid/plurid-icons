@@ -9,11 +9,17 @@ import {
 } from '@plurid/plurid-themes';
 
 import {
-    PluridDropdown,
-    PluridTextline,
-} from '@plurid/plurid-ui-react';
+    universal,
+} from '@plurid/plurid-ui-components-react';
 
 
+
+const {
+    inputs: {
+        Dropdown: PluridDropdown,
+        Textline: PluridTextline,
+    },
+} = universal;
 
 interface OptionsProperties {
     theme: Theme;
