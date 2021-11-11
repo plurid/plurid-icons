@@ -79,11 +79,11 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
         }: IStyledPluridIconTitle) => {
             switch (location) {
                 case 'above':
-                    return -iconSize + 'px';
+                    return (-1 * (iconSize + 30)) + 'px';
                 case 'left':
-                    return iconSize + 'px';
+                    return (-1 * (iconSize / 2 - 1)) + 'px';
                 case 'right':
-                    return iconSize + 'px';
+                    return (-1 * (iconSize / 2 - 1)) + 'px';
                 case 'under':
                 default:
                     return (iconSize + 10) + 'px';
@@ -93,7 +93,18 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
     left: ${
         ({
             position,
+            location,
+            iconSize,
         }: IStyledPluridIconTitle) => {
+            if (location) {
+                switch (location) {
+                    case 'left':
+                        return 'initial';
+                    case 'right':
+                        return (iconSize + 10) + 'px';
+                }
+            }
+
             switch (position) {
                 case 'left':
                     return '0';
@@ -106,10 +117,34 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
             }
         }
     };
+    right: ${
+        ({
+            location,
+            iconSize,
+        }: IStyledPluridIconTitle) => {
+            if (location) {
+                switch (location) {
+                    case 'left':
+                        return (iconSize + 10) + 'px';
+                }
+            }
+
+            return 'initial';
+        }
+    };
     transform: ${
         ({
             position,
+            location,
         }: IStyledPluridIconTitle) => {
+            if (location) {
+                switch (location) {
+                    case 'left':
+                    case 'right':
+                        return 'initial';
+                }
+            }
+
             switch (position) {
                 case 'left':
                     return 'translateX(0%)';
