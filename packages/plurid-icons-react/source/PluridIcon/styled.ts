@@ -54,6 +54,11 @@ export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
                 iconSize,
             }: IStyledPluridIconImage) => iconSize + 'px'
         };
+        max-width: ${
+            ({
+                iconSize,
+            }: IStyledPluridIconImage) => iconSize + 'px'
+        };
         height: ${
             ({
                 iconSize,
