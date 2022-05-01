@@ -1,17 +1,22 @@
-export * from './icons';
+// #region imports
+    // #region internal
+    export * from './icons';
 
-import PluridIcon from './PluridIcon';
+    import PluridIcon from './PluridIcon';
 
-import {
-    PLURID_ICON_SIZES,
-} from './enumerations';
+    import {
+        PLURID_ICON_SIZES,
+    } from './enumerations';
 
-import {
-    PluridIconProperties,
-} from './interfaces';
+    import {
+        PluridIconProperties,
+    } from './interfaces';
+    // #endregion internal
+// #endregion imports
 
 
 
+// #region module
 export {
     PluridIcon,
 
@@ -19,3 +24,4 @@ export {
 
     PluridIconProperties,
 };
+// #endregion module

@@ -13,6 +13,7 @@ import {
 export interface PluridIconProperties {
     className?: string;
     style?: React.CSSProperties;
+    children?: React.ReactNode;
 
     /**
      * Size of the icon.

@@ -1,11 +1,16 @@
-import styled from 'styled-components';
+// #region imports
+    // #region libraries
+    import styled from 'styled-components';
 
-import {
-    Theme,
-} from '@plurid/plurid-themes';
+    import {
+        Theme,
+    } from '@plurid/plurid-themes';
+    // #endregion libraries
+// #endregion imports
 
 
 
+// #region module
 export const StyledPluridIcon = styled.div`
     position: relative;
     display: inline-block;
@@ -183,11 +188,15 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
     z-index: 999999;
 
     font-size: 0.8rem;
-    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: ${
+        ({
+            theme,
+        }: IStyledPluridIconTitle) => theme.fontFamilySansSerif
+    };
 
     user-select: none;
     pointer-events: none;
     white-space: nowrap;
     opacity: 1;
 `;
+// #endregion module
