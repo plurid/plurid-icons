@@ -6,6 +6,14 @@
         Theme,
     } from '@plurid/plurid-themes';
     // #endregion libraries
+
+
+    // #region external
+    import {
+        PluridIconLocation,
+        PluridIconPosition,
+    } from '../interfaces';
+    // #endregion external
 // #endregion imports
 
 
@@ -77,9 +85,10 @@ export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
 export interface IStyledPluridIconTitle {
     theme: Theme;
     iconSize: number;
-    position: 'left' | 'center' | 'right';
-    location: 'under' | 'above' | 'left' | 'right';
+    position: PluridIconPosition;
+    location: PluridIconLocation;
 }
+
 
 export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
     top: ${

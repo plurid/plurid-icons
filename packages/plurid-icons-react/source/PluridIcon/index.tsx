@@ -144,12 +144,14 @@ const PluridIcon: React.FC<PluridIconProperties> = (
 
 
     // #region render
+    const renderTitle = !!(title && showTitle);
+
     return (
         <StyledPluridIcon
             theme={activeTheme}
             onMouseEnter={() => setMouseOver(true)}
             onMouseLeave={() => setMouseOver(false)}
-            onMouseMove={() => !mouseOver ? setMouseOver(true) : null}
+            onMouseMove={() => mouseOver ? null : setMouseOver(true)}
             onClick={(event) => atClick ? atClick(event) : null}
             style={{
                 ...style,
@@ -166,20 +168,16 @@ const PluridIcon: React.FC<PluridIconProperties> = (
                 {children}
             </StyledPluridIconImage>
 
-            {
-                title
-                && showTitle
-                && (
-                    <StyledPluridIconTitle
-                        theme={activeTheme}
-                        iconSize={iconSize}
-                        position={activeTitlePosition}
-                        location={activeTitleLocation}
-                    >
-                        {title}
-                    </StyledPluridIconTitle>
-                )
-            }
+            {renderTitle && (
+                <StyledPluridIconTitle
+                    theme={activeTheme}
+                    iconSize={iconSize}
+                    position={activeTitlePosition}
+                    location={activeTitleLocation}
+                >
+                    {title}
+                </StyledPluridIconTitle>
+            )}
         </StyledPluridIcon>
     );
     // #endregion render

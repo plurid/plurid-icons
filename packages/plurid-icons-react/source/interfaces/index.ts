@@ -19,6 +19,8 @@
 
 // #region module
 export type PluridIconSize = keyof typeof PLURID_ICON_SIZES | number;
+export type PluridIconPosition = 'left' | 'center' | 'right';
+export type PluridIconLocation = 'under' | 'above' | 'left' | 'right';
 
 
 export interface PluridIconProperties {
@@ -65,14 +67,14 @@ export interface PluridIconProperties {
      *
      * Default: `'center'`.
      */
-    titlePosition?: 'left' | 'center' | 'right';
+    titlePosition?: PluridIconPosition;
 
     /**
      * Location of the `title`.
      *
      * Default: `'under'`.
      */
-    titleLocation?: 'under' | 'above' | 'left' | 'right';
+    titleLocation?: PluridIconLocation;
 
     /**
      * Time value to show title after hover event.
