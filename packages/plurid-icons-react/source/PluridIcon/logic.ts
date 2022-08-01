@@ -1,12 +1,16 @@
 // #region imports
     // #region external
     import {
-        PLURID_ICON_SIZES_VALUES,
-    } from '../constants';
+        PluridIconSize,
+    } from '../interfaces';
 
     import {
         PLURID_ICON_SIZES,
     } from '../enumerations';
+
+    import {
+        PLURID_ICON_SIZES_VALUES,
+    } from '../constants';
     // #endregion external
 // #endregion imports
 
@@ -14,7 +18,7 @@
 
 // #region module
 export const handleSize = (
-    size: number | 'small' | 'normal' | 'large' | undefined,
+    size: PluridIconSize | undefined,
 ) => {
     if (!size) {
         return PLURID_ICON_SIZES_VALUES.normal;
@@ -34,5 +38,15 @@ export const handleSize = (
         default:
             return PLURID_ICON_SIZES_VALUES.normal;
     }
+}
+
+
+export const numberOrDefault = (
+    value: number | undefined,
+    defaultValue: number,
+) => {
+    return typeof value === 'number' && !isNaN(value)
+        ? value
+        : defaultValue;
 }
 // #endregion module

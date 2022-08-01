@@ -33,6 +33,7 @@
     } from './styled';
 
     import {
+        numberOrDefault,
         handleSize,
     } from './logic';
     // #endregion internal
@@ -69,12 +70,8 @@ const PluridIcon: React.FC<PluridIconProperties> = (
     const activeTheme = theme || plurid;
     const activeTitlePosition = titlePosition || 'center';
     const activeTitleLocation = titleLocation || 'under';
-    const activeTitleAppearTime = typeof titleAppearTime === 'number'
-        ? titleAppearTime
-        : DEFAULT_TITLE_APPEAR_TIME;
-    const activeTitleDisappearTime = typeof titleDisappearTime === 'number'
-        ? titleDisappearTime
-        : DEFAULT_TITLE_DISAPPEAR_TIME;
+    const activeTitleAppearTime = numberOrDefault(titleAppearTime, DEFAULT_TITLE_APPEAR_TIME);
+    const activeTitleDisappearTime = numberOrDefault(titleDisappearTime, DEFAULT_TITLE_DISAPPEAR_TIME);
     const iconSize = handleSize(size);
     const activeOpacity = opacity ?? 1;
     // #endregion properties

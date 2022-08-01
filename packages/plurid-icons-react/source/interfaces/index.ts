@@ -1,13 +1,24 @@
-import React from 'react';
+// #region imports
+    // #region libraries
+    import React from 'react';
 
-import {
-    Theme,
-} from '@plurid/plurid-themes';
+    import {
+        Theme,
+    } from '@plurid/plurid-themes';
+    // #endregion libraries
 
-import {
-    PLURID_ICON_SIZES,
-} from '../enumerations';
 
+    // #region external
+    import {
+        PLURID_ICON_SIZES,
+    } from '../enumerations';
+    // #endregion external
+// #endregion imports
+
+
+
+// #region module
+export type PluridIconSize = keyof typeof PLURID_ICON_SIZES | number;
 
 
 export interface PluridIconProperties {
@@ -28,7 +39,7 @@ export interface PluridIconProperties {
      *
      * Default: `'normal'`.
      */
-    size?: keyof typeof PLURID_ICON_SIZES | number;
+    size?: PluridIconSize;
 
     /**
      * Opacity of the icon.
@@ -84,3 +95,4 @@ export interface PluridIconProperties {
 
     atClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
+// #endregion module
