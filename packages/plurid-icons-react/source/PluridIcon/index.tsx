@@ -15,12 +15,18 @@
 
     // #region external
     import {
+        PLURID_ICON_POSITION,
+        PLURID_ICON_LOCATION,
+    } from '../enumerations';
+
+    import {
         PluridIconProperties,
     } from '../interfaces';
 
     import {
         DEFAULT_TITLE_APPEAR_TIME,
         DEFAULT_TITLE_DISAPPEAR_TIME,
+        DEFAULT_OPACITY,
     } from '../constants';
     // #endregion external
 
@@ -68,12 +74,12 @@ const PluridIcon: React.FC<PluridIconProperties> = (
 
     /** compute */
     const activeTheme = theme || plurid;
-    const activeTitlePosition = titlePosition || 'center';
-    const activeTitleLocation = titleLocation || 'under';
+    const activeTitlePosition = titlePosition || PLURID_ICON_POSITION.center;
+    const activeTitleLocation = titleLocation || PLURID_ICON_LOCATION.under;
     const activeTitleAppearTime = numberOrDefault(titleAppearTime, DEFAULT_TITLE_APPEAR_TIME);
     const activeTitleDisappearTime = numberOrDefault(titleDisappearTime, DEFAULT_TITLE_DISAPPEAR_TIME);
     const iconSize = handleSize(size);
-    const activeOpacity = opacity ?? 1;
+    const activeOpacity = opacity ?? DEFAULT_OPACITY;
     // #endregion properties
 
 
