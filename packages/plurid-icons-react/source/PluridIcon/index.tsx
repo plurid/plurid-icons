@@ -15,14 +15,9 @@
 
     // #region external
     import {
-        PLURID_ICON_SIZES_VALUES,
         DEFAULT_TITLE_APPEAR_TIME,
         DEFAULT_TITLE_DISAPPEAR_TIME,
     } from '../constants';
-
-    import {
-        PLURID_ICON_SIZES,
-    } from '../enumerations';
 
     import {
         PluridIconProperties,
@@ -36,37 +31,16 @@
         StyledPluridIconImage,
         StyledPluridIconTitle,
     } from './styled';
+
+    import {
+        handleSize,
+    } from './logic';
     // #endregion internal
 // #endregion imports
 
 
 
-
 // #region module
-const handleSize = (
-    size: number | 'small' | 'normal' | 'large' | undefined,
-) => {
-    if (!size) {
-        return PLURID_ICON_SIZES_VALUES.normal;
-    }
-
-    if (typeof size === 'number') {
-        return size;
-    }
-
-    switch (size) {
-        case PLURID_ICON_SIZES.small:
-            return PLURID_ICON_SIZES_VALUES.small;
-        case PLURID_ICON_SIZES.normal:
-            return PLURID_ICON_SIZES_VALUES.normal;
-        case PLURID_ICON_SIZES.large:
-            return PLURID_ICON_SIZES_VALUES.large;
-        default:
-            return PLURID_ICON_SIZES_VALUES.normal;
-    }
-}
-
-
 const PluridIcon: React.FC<PluridIconProperties> = (
     properties,
 ) => {
@@ -106,21 +80,35 @@ const PluridIcon: React.FC<PluridIconProperties> = (
     // #endregion properties
 
 
-    // #region state
-    const [mouseOver, setMouseOver] = useState(false);
-    const [showTitle, setShowTitle] = useState(false);
-    // #endregion state
-
-
     // #region references
     const hoverInTimeout = useRef<null | NodeJS.Timeout>(null);
     const hoverOutTimeout = useRef<null | NodeJS.Timeout>(null);
     // #endregion references
 
 
+    // #region state
+    const [
+        mouseOver,
+        setMouseOver,
+    ] = useState(false);
+
+    const [
+        showTitle,
+        setShowTitle,
+    ] = useState(false);
+    // #endregion state
+
+
     // #region effects
     /** Show title */
     useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const canHover = window.matchMedia('(hover: hover)').matches;
+            if (!canHover) {
+                return;
+            }
+        }
+
         if (mouseOver && hoverOutTimeout.current) {
             hoverInTimeout.current = setTimeout(
                 () => {
