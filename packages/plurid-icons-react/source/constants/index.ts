@@ -7,4 +7,8 @@ export const PLURID_ICON_SIZES_VALUES = {
     normal: 16,
     large: 24,
 };
+
+
+export const initial = 'initial';
+export const px = 'px';
 // #endregion module

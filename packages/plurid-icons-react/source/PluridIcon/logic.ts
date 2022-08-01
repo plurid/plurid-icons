@@ -1,12 +1,12 @@
 // #region imports
     // #region external
     import {
-        PluridIconSize,
-    } from '../interfaces';
-
-    import {
         PLURID_ICON_SIZES,
     } from '../enumerations';
+
+    import {
+        PluridIconSize,
+    } from '../interfaces';
 
     import {
         PLURID_ICON_SIZES_VALUES,

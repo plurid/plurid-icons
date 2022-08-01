@@ -13,6 +13,16 @@
         PluridIconLocation,
         PluridIconPosition,
     } from '../interfaces';
+
+    import {
+        PLURID_ICON_LOCATION,
+        PLURID_ICON_POSITION,
+    } from '../enumerations';
+
+    import {
+        initial,
+        px,
+    } from '../constants';
     // #endregion external
 // #endregion imports
 
@@ -65,17 +75,17 @@ export const StyledPluridIconImage = styled.div<IStyledPluridIconImage>`
         width: ${
             ({
                 iconSize,
-            }: IStyledPluridIconImage) => iconSize + 'px'
+            }: IStyledPluridIconImage) => iconSize + px
         };
         max-width: ${
             ({
                 iconSize,
-            }: IStyledPluridIconImage) => iconSize + 'px'
+            }: IStyledPluridIconImage) => iconSize + px
         };
         height: ${
             ({
                 iconSize,
-            }: IStyledPluridIconImage) => iconSize + 'px'
+            }: IStyledPluridIconImage) => iconSize + px
         };
     }
 `;
@@ -96,17 +106,22 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
             iconSize,
             location,
         }: IStyledPluridIconTitle) => {
+            let value = 0;
+
             switch (location) {
-                case 'above':
-                    return (-1 * (iconSize + 22)) + 'px';
-                case 'left':
-                    return (-1 * (iconSize / 2 - 1)) + 'px';
-                case 'right':
-                    return (-1 * (iconSize / 2 - 1)) + 'px';
-                case 'under':
+                case PLURID_ICON_LOCATION.above:
+                    value = -1 * (iconSize + 22);
+                    break;
+                case PLURID_ICON_LOCATION.left:
+                case PLURID_ICON_LOCATION.right:
+                    value = -1 * (iconSize / 2 - 1);
+                    break;
+                case PLURID_ICON_LOCATION.under:
                 default:
-                    return (iconSize + 10) + 'px';
+                    value = iconSize + 10;
             }
+
+            return value + px;
         }
     };
     left: ${
@@ -117,19 +132,19 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
         }: IStyledPluridIconTitle) => {
             if (location) {
                 switch (location) {
-                    case 'left':
-                        return 'initial';
-                    case 'right':
-                        return (iconSize + 10) + 'px';
+                    case PLURID_ICON_LOCATION.left:
+                        return initial;
+                    case PLURID_ICON_LOCATION.right:
+                        return (iconSize + 10) + px;
                 }
             }
 
             switch (position) {
-                case 'left':
+                case PLURID_ICON_POSITION.left:
                     return '0';
-                case 'center':
+                case PLURID_ICON_POSITION.center:
                     return '50%';
-                case 'right':
+                case PLURID_ICON_POSITION.right:
                     return '100%';
                 default:
                     return '50%';
@@ -143,12 +158,12 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
         }: IStyledPluridIconTitle) => {
             if (location) {
                 switch (location) {
-                    case 'left':
-                        return (iconSize + 10) + 'px';
+                    case PLURID_ICON_LOCATION.left:
+                        return (iconSize + 10) + px;
                 }
             }
 
-            return 'initial';
+            return initial;
         }
     };
     transform: ${
@@ -158,22 +173,27 @@ export const StyledPluridIconTitle = styled.div<IStyledPluridIconTitle>`
         }: IStyledPluridIconTitle) => {
             if (location) {
                 switch (location) {
-                    case 'left':
-                    case 'right':
-                        return 'initial';
+                    case PLURID_ICON_LOCATION.left:
+                    case PLURID_ICON_LOCATION.right:
+                        return initial;
                 }
             }
 
+            let value = '';
+
             switch (position) {
-                case 'left':
-                    return 'translateX(0%)';
-                case 'center':
-                    return 'translateX(-50%)';
-                case 'right':
-                    return 'translateX(-100%)';
+                case PLURID_ICON_POSITION.left:
+                    value = '0';
+                    break;
+                case PLURID_ICON_POSITION.right:
+                    value = '-100';
+                    break;
+                case PLURID_ICON_POSITION.center:
                 default:
-                    return 'translateX(-50%)';
+                    value = '-50';
             }
+
+            return `translateX(${value}%)`;
         }
     };
     background-color: ${

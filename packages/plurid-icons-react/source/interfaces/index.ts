@@ -11,6 +11,8 @@
     // #region external
     import {
         PLURID_ICON_SIZES,
+        PLURID_ICON_POSITION,
+        PLURID_ICON_LOCATION,
     } from '../enumerations';
     // #endregion external
 // #endregion imports
@@ -19,8 +21,8 @@
 
 // #region module
 export type PluridIconSize = keyof typeof PLURID_ICON_SIZES | number;
-export type PluridIconPosition = 'left' | 'center' | 'right';
-export type PluridIconLocation = 'under' | 'above' | 'left' | 'right';
+export type PluridIconPosition = keyof typeof PLURID_ICON_POSITION;
+export type PluridIconLocation = keyof typeof PLURID_ICON_LOCATION;
 
 
 export interface PluridIconProperties {

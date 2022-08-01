@@ -15,13 +15,13 @@
 
     // #region external
     import {
+        PluridIconProperties,
+    } from '../interfaces';
+
+    import {
         DEFAULT_TITLE_APPEAR_TIME,
         DEFAULT_TITLE_DISAPPEAR_TIME,
     } from '../constants';
-
-    import {
-        PluridIconProperties,
-    } from '../interfaces';
     // #endregion external
 
 

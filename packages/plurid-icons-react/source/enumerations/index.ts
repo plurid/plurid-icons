@@ -4,4 +4,17 @@ export enum PLURID_ICON_SIZES {
     normal = 'normal',
     large = 'large',
 }
+
+export enum PLURID_ICON_POSITION {
+    left = 'left',
+    center = 'center',
+    right = 'right',
+}
+
+export enum PLURID_ICON_LOCATION {
+    under = 'under',
+    above = 'above',
+    left = 'left',
+    right = 'right',
+}
 // #endregion module
