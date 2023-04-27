@@ -36,17 +36,17 @@
         "lint": "eslint ./source --ext .ts,.tsx -c ./configurations/.eslintrc.js",
         "test": "jest -c ./configurations/jest.config.js --coverage",
         "clean": "rm -rf ./distribution",
-        "start": "pnpm clean && rollup -c ./scripts/rollup.config.ts -w --environment ENV_MODE:local",
+        "start": "pnpm clean && rollup -c ./scripts/rollup.config.js --bundleConfigAsCjs -w --environment ENV_MODE:local",
         "build.clean": "rm -rf `find ./distribution/ -type d -name __tests__` && rm -rf `find ./distribution/ -type d -name __stories__` && rm -rf ./distribution/utilities/storybook",
-        "build.development": "pnpm clean && rollup -c ./scripts/rollup.config.ts --environment ENV_MODE:local",
-        "build.production": "pnpm clean && rollup -c ./scripts/rollup.config.ts --environment ENV_MODE:production",
+        "build.development": "pnpm clean && rollup -c ./scripts/rollup.config.js --bundleConfigAsCjs --environment ENV_MODE:local",
+        "build.production": "pnpm clean && rollup -c ./scripts/rollup.config.js --bundleConfigAsCjs --environment ENV_MODE:production",
         "build": "pnpm clean && pnpm lint && pnpm test && pnpm build.production && pnpm build.clean",
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
         "@plurid/plurid-themes": "*",
-        "react": ">=17",
-        "react-dom": ">=17",
+        "react": ">=18",
+        "react-dom": ">=18",
         "styled-components": ">=5"
     },
     "devDependencies": {
