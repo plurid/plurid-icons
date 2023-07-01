@@ -1,6 +1,6 @@
 {
     "name": "@plurid/plurid-icons-react",
-    "version": "0.0.0-8",
+    "version": "0.0.0-9",
     "description": "Plurid Icons for Plurid Applications based on React.",
     "keywords": [
         "plurid",
@@ -48,7 +48,7 @@
         "@plurid/plurid-themes": "*",
         "react": ">=18",
         "react-dom": ">=18",
-        "styled-components": ">=6"
+        "styled-components": ">=5"
     },
     "devDependencies": {
         "@plurid/plurid-themes": "^0.0.0-2",
