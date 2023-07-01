@@ -24,12 +24,14 @@ const build =  {
             format: 'cjs',
             globals,
             sourcemap: true,
+            interop: 'auto',
         },
         {
             file: pkg.module,
             format: 'es',
             globals,
             sourcemap: true,
+            interop: 'auto',
         },
     ],
     external: [
