@@ -1,6 +1,5 @@
 // #region imports
     // #region libraries
-    import ttypescript from 'ttypescript';
     import external from 'rollup-plugin-peer-deps-external';
     import typescript from 'rollup-plugin-typescript2';
     import terser from '@rollup/plugin-terser';
@@ -15,8 +14,7 @@
 
 
 // #region module
-const globals = {
-};
+const globals = {};
 
 const build =  {
     input: `source/index.ts`,
@@ -35,13 +33,13 @@ const build =  {
         },
     ],
     external: [
+        '@plurid/plurid-themes',
+        'react',
+        'react-dom',
+        'styled-components',
     ],
-    watch: {
-        include: 'source/**',
-    },
     plugins: [
         typescript({
-            typescript: ttypescript,
             useTsconfigDeclarationDir: true,
         }),
         external({

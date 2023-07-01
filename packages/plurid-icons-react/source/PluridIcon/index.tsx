@@ -158,7 +158,7 @@ const PluridIcon: React.FC<PluridIconProperties> = (
             onMouseEnter={() => setMouseOver(true)}
             onMouseLeave={() => setMouseOver(false)}
             onMouseMove={() => mouseOver ? null : setMouseOver(true)}
-            onClick={(event) => atClick ? atClick(event) : null}
+            onClick={(event: any) => atClick ? atClick(event) : null}
             style={{
                 ...style,
             }}
